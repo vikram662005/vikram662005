@@ -12,7 +12,7 @@ Building interactive applications and exploring AI-powered solutions.
 <br>
 <div align="center">
 
-<img src="./vikram_pro_terminal_reveal.gif" width="500" />
+<img src="./vikram_pro_terminal_reveal.gif" width="1000" />
 
 <br><br>
 
