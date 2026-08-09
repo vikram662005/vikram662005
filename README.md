@@ -114,4 +114,13 @@ Web application for planning and managing industrial visits.
 </div>
 
 ---
+---
 
+## `05 / CURRENTLY`
+
+```text
+[+] Building full-stack applications
+[+] Learning AI integration
+[+] Improving Python
+[+] Exploring new technologies
+[+] Working on personal projects
