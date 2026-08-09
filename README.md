@@ -34,7 +34,7 @@
 ## 🖥️ whoami
 
 <div align="center">
-  <img src="./assets/whoami-ironman.svg" alt="whoami" width="100%">
+  <img src="./whoami-ironman.svg" alt="whoami" width="100%">
 </div>
 
 <br>
@@ -42,7 +42,7 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="./assets/techstack-thor.svg" alt="tech stack" width="100%">
+  <img src="./techstack-thor.svg" alt="tech stack" width="100%">
 </div>
 
 <br>
@@ -50,7 +50,7 @@
 ## 💼 Experience
 
 <div align="center">
-  <img src="./assets/experience-timeline.svg" alt="experience timeline" width="100%">
+  <img src="./experience-timeline.svg" alt="experience timeline" width="100%">
 </div>
 
 <br>
