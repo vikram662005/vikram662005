@@ -18,11 +18,10 @@ Building interactive applications and exploring AI-powered solutions.
 
 ## `01 / ABOUT ME`
 
-```text
-> Computer Science Engineering Student
-> Full Stack Developer
-> Python Developer
-> AI Enthusiast
+> Computer Science Engineering Student  
+> Full Stack Developer  
+> Python Developer  
+> AI Enthusiast  
 > Building projects and learning new technologies
 
 ---
@@ -69,7 +68,7 @@ Building interactive applications and exploring AI-powered solutions.
 
 ## `03 / FEATURED PROJECTS`
 
-### `AI INTERVIEW COACH`
+### AI INTERVIEW COACH
 
 AI-powered interview platform that generates interview questions, processes answers and provides feedback.
 
@@ -78,23 +77,22 @@ AI-powered interview platform that generates interview questions, processes answ
 
 ---
 
-### `DEEPFAKE AUDIO DETECTION`
+### DEEPFAKE AUDIO DETECTION
 
-Machine-learning based system for detecting manipulated or synthetic audio using audio-processing techniques.
+Machine-learning based system for detecting manipulated or synthetic audio.
 
 **Stack:**  
 `Python` `Librosa` `MFCC` `Chroma Features` `Mel-Spectrograms` `Scikit-learn` `NumPy` `Pandas`
 
 ---
 
-### `INDUSTRIAL VISIT PLANNING & BOOKING SYSTEM`
+### INDUSTRIAL VISIT PLANNING & BOOKING SYSTEM
 
 Web application for planning and managing industrial visits.
 
 **Stack:**  
 `ASP.NET` `SQL Server` `HTML` `CSS` `JavaScript`
 
----
 ---
 
 ## `04 / GITHUB ACTIVITY`
@@ -114,7 +112,6 @@ Web application for planning and managing industrial visits.
 </div>
 
 ---
----
 
 ## `05 / CURRENTLY`
 
@@ -124,24 +121,11 @@ Web application for planning and managing industrial visits.
 [+] Improving Python
 [+] Exploring new technologies
 [+] Working on personal projects
----
 
-## `06 / CONNECT`
-
+06 / CONNECT
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vikram662005)
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](#)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-
 </div>
-
----
-
 <div align="center">
-
-### `KEEP BUILDING • KEEP LEARNING • KEEP EXPLORING`
-
-</div>
+KEEP BUILDING • KEEP LEARNING • KEEP EXPLORING
+</div> ```
