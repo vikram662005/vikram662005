@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="./vikram_puzzle.gif" width="300" />
+<img src="./vikram_puzzle.gif" width="500" />
 
 <br><br>
 
