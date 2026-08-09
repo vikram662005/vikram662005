@@ -12,7 +12,7 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8993ea,50:9694fa,100:6ee2f5&height=6&section=header" width="100%">
 
 <h1>Hi, I'm A.VIKRAM👋</h1>
-<h3>Senior Software Engineer · Cloud · System Design</h3>
+<h3>BTECH CSE STUDENT</h3>
 
 <a href="https://linkedin.com/in/gowtham-r-kod">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
@@ -31,7 +31,7 @@
 </div>
 <br>
 
-## 🖥️ whoami
+## 🖥️ WHO AM I
 
 <div align="center">
   <img src="./whoami-ironman.svg" alt="whoami" width="100%">
@@ -57,9 +57,8 @@
 
 
 
-**🎓 BTECH COMPUTER SCIENCE AND ENGINEERING** — VIMAL JYOTHI ENGINEERING COLLEGE, KANNUR,KERELA (2027)
-**📜 DIPLOMA IN COMPUTER SCIENCE AND ENGINEERING -GURU RAGHAVENDIRA POLYTECHNIC COLLEGE,VELLORE,TAMILNADU(2024)
-
+**ONLINE INTERNSHIP-EDIGLOGE
+**OFFLINE INTERNSHIP -SELVI SOFTWARE TECHNOLOGIES
 <br>
 
 
