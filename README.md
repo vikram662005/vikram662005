@@ -1,11 +1,4 @@
 
-<div align="center">
-
-<img src="./vikram_pro_terminal_reveal.gif" width="500" />
-
-<br><br>
-
-</div>
 
 
 <div align="center">
@@ -17,6 +10,14 @@
 Building interactive applications and exploring AI-powered solutions.
 
 <br>
+<div align="center">
+
+<img src="./vikram_pro_terminal_reveal.gif" width="500" />
+
+<br><br>
+
+</div>
+
 
 [![GitHub](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vikram662005)
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=white)](vkrm.portfolioo.vercel.app)
