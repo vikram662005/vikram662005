@@ -1,73 +1,699 @@
 <!-- Frontend -->
-<text x="580" y="66" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">Frontend</text>
-<g font-size="14" font-weight="700">
-  <rect x="300" y="90" width="130" height="38" rx="9" fill="#E34F26"/>
-  <text x="365" y="115" text-anchor="middle" fill="#ffffff" textLength="106" lengthAdjust="spacingAndGlyphs">HTML5</text>
+<svg width="1160" height="650" viewBox="0 0 1160 650" xmlns="http://www.w3.org/2000/svg">
 
-  <rect x="444" y="90" width="120" height="38" rx="9" fill="#1572B6"/>
-  <text x="504" y="115" text-anchor="middle" fill="#ffffff" textLength="96" lengthAdjust="spacingAndGlyphs">CSS3</text>
+  <defs>
 
-  <rect x="578" y="90" width="145" height="38" rx="9" fill="#F7DF1E"/>
-  <text x="650.5" y="115" text-anchor="middle" fill="#1a1a1a" textLength="121" lengthAdjust="spacingAndGlyphs">JAVASCRIPT</text>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#0b1225"/>
+      <stop offset="100%" stop-color="#03050d"/>
+    </linearGradient>
 
-  <rect x="737" y="90" width="125" height="38" rx="9" fill="#61DAFB"/>
-  <text x="799.5" y="115" text-anchor="middle" fill="#1a1a1a" textLength="101" lengthAdjust="spacingAndGlyphs">UI / UX</text>
-</g>
+    <!-- Glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-<!-- Backend -->
-<text x="580" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">Backend</text>
-<g font-size="14" font-weight="700">
-  <rect x="310" y="208" width="120" height="38" rx="9" fill="#3776AB"/>
-  <text x="370" y="233" text-anchor="middle" fill="#ffffff" textLength="96" lengthAdjust="spacingAndGlyphs">PYTHON</text>
+    <!-- Strong Glow -->
+    <filter id="strongGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-  <rect x="444" y="208" width="115" height="38" rx="9" fill="#000000"/>
-  <text x="501.5" y="233" text-anchor="middle" fill="#ffffff" textLength="91" lengthAdjust="spacingAndGlyphs">FLASK</text>
+    <!-- Grid -->
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
 
-  <rect x="573" y="208" width="135" height="38" rx="9" fill="#4B8BBE"/>
-  <text x="640.5" y="233" text-anchor="middle" fill="#ffffff" textLength="111" lengthAdjust="spacingAndGlyphs">REST API</text>
+      <path d="M40 0H0V40"
+            fill="none"
+            stroke="#24304f"
+            stroke-width="0.6"
+            opacity="0.35"/>
 
-  <rect x="722" y="208" width="135" height="38" rx="9" fill="#ffffff"/>
-  <text x="789.5" y="233" text-anchor="middle" fill="#333333" textLength="111" lengthAdjust="spacingAndGlyphs">JSON</text>
-</g>
+    </pattern>
 
-<!-- Database -->
-<text x="580" y="302" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">Database</text>
-<g font-size="14" font-weight="700">
-  <rect x="475" y="326" width="110" height="38" rx="9" fill="#003B57"/>
-  <text x="530" y="351" text-anchor="middle" fill="#ffffff" textLength="86" lengthAdjust="spacingAndGlyphs">SQLITE</text>
+    <!-- Tech gradient -->
+    <linearGradient id="lineGradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
 
-  <rect x="599" y="326" width="130" height="38" rx="9" fill="#47A248"/>
-  <text x="664" y="351" text-anchor="middle" fill="#ffffff" textLength="106" lengthAdjust="spacingAndGlyphs">DATABASE</text>
-</g>
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="50%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#ff4ecd"/>
 
-<!-- AI / Computer Vision -->
-<text x="580" y="420" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">AI / Computer Vision</text>
-<g font-size="14" font-weight="700">
-  <rect x="220" y="444" width="155" height="38" rx="9" fill="#4285F4"/>
-  <text x="297.5" y="469" text-anchor="middle" fill="#ffffff" textLength="131" lengthAdjust="spacingAndGlyphs">GEMINI API</text>
+    </linearGradient>
 
-  <rect x="393" y="444" width="130" height="38" rx="9" fill="#000000"/>
-  <text x="458" y="469" text-anchor="middle" fill="#ffffff" textLength="106" lengthAdjust="spacingAndGlyphs">MEDIAPIPE</text>
+  </defs>
 
-  <rect x="541" y="444" width="155" height="38" rx="9" fill="#FF6F00"/>
-  <text x="618.5" y="469" text-anchor="middle" fill="#ffffff" textLength="131" lengthAdjust="spacingAndGlyphs">AI EVALUATION</text>
 
-  <rect x="714" y="444" width="145" height="38" rx="9" fill="#5C3EE8"/>
-  <text x="786.5" y="469" text-anchor="middle" fill="#ffffff" textLength="121" lengthAdjust="spacingAndGlyphs">SPEECH AI</text>
-</g>
+  <!-- ===================================================== -->
+  <!-- BACKGROUND                                             -->
+  <!-- ===================================================== -->
 
-<!-- Unreal Engine / MetaHuman -->
-<text x="580" y="538" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">3D Interview Environment</text>
-<g font-size="14" font-weight="700">
-  <rect x="285" y="562" width="175" height="38" rx="9" fill="#111111" stroke="#ffffff" stroke-opacity="0.2"/>
-  <text x="372.5" y="587" text-anchor="middle" fill="#ffffff" textLength="151" lengthAdjust="spacingAndGlyphs">UNREAL ENGINE</text>
+  <rect width="1160"
+        height="650"
+        rx="22"
+        fill="url(#bg)"/>
 
-  <rect x="484" y="562" width="145" height="38" rx="9" fill="#202020" stroke="#ffffff" stroke-opacity="0.2"/>
-  <text x="556.5" y="587" text-anchor="middle" fill="#ffffff" textLength="121" lengthAdjust="spacingAndGlyphs">METAHUMAN</text>
+  <rect width="1160"
+        height="650"
+        rx="22"
+        fill="url(#grid)"/>
 
-  <rect x="653" y="562" width="115" height="38" rx="9" fill="#00AEEF"/>
-  <text x="710.5" y="587" text-anchor="middle" fill="#ffffff" textLength="91" lengthAdjust="spacingAndGlyphs">CONVAI</text>
+  <rect x="1"
+        y="1"
+        width="1158"
+        height="648"
+        rx="21"
+        fill="none"
+        stroke="#263657"
+        stroke-width="2"/>
 
-  <rect x="792" y="562" width="100" height="38" rx="9" fill="#F05032"/>
-  <text x="842" y="587" text-anchor="middle" fill="#ffffff" textLength="76" lengthAdjust="spacingAndGlyphs">GIT</text>
-</g>
+
+  <!-- ===================================================== -->
+  <!-- HEADER                                                 -->
+  <!-- ===================================================== -->
+
+  <text x="580"
+        y="48"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="25"
+        font-weight="700"
+        letter-spacing="5"
+        fill="#eafcff">
+    TECH STACK
+  </text>
+
+  <text x="580"
+        y="72"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="11"
+        letter-spacing="3"
+        fill="#6f8dbb">
+    TECHNOLOGIES • TOOLS • FRAMEWORKS
+  </text>
+
+
+  <!-- Header line -->
+
+  <line x1="360"
+        y1="88"
+        x2="800"
+        y2="88"
+        stroke="url(#lineGradient)"
+        stroke-width="2"
+        filter="url(#glow)"/>
+
+
+  <!-- ===================================================== -->
+  <!-- FRONTEND                                               -->
+  <!-- ===================================================== -->
+
+  <text x="580"
+        y="120"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        font-weight="700"
+        fill="#eaf6ff">
+    FRONTEND
+  </text>
+
+  <g font-family="Arial, Helvetica, sans-serif"
+     font-size="13"
+     font-weight="700"
+     text-anchor="middle">
+
+    <!-- HTML -->
+    <rect x="105"
+          y="138"
+          width="115"
+          height="38"
+          rx="9"
+          fill="#e34f26"/>
+
+    <text x="162.5"
+          y="163"
+          fill="#ffffff">
+      HTML5
+    </text>
+
+
+    <!-- CSS -->
+    <rect x="235"
+          y="138"
+          width="105"
+          height="38"
+          rx="9"
+          fill="#1572b6"/>
+
+    <text x="287.5"
+          y="163"
+          fill="#ffffff">
+      CSS3
+    </text>
+
+
+    <!-- JavaScript -->
+    <rect x="355"
+          y="138"
+          width="145"
+          height="38"
+          rx="9"
+          fill="#f7df1e"/>
+
+    <text x="427.5"
+          y="163"
+          fill="#151515">
+      JAVASCRIPT
+    </text>
+
+
+    <!-- React -->
+    <rect x="515"
+          y="138"
+          width="110"
+          height="38"
+          rx="9"
+          fill="#20232a"
+          stroke="#61dafb"
+          stroke-opacity="0.35"/>
+
+    <text x="570"
+          y="163"
+          fill="#61dafb">
+      REACT
+    </text>
+
+
+    <!-- Three.js -->
+    <rect x="640"
+          y="138"
+          width="125"
+          height="38"
+          rx="9"
+          fill="#000000"
+          stroke="#ffffff"
+          stroke-opacity="0.2"/>
+
+    <text x="702.5"
+          y="163"
+          fill="#ffffff">
+      THREE.JS
+    </text>
+
+
+    <!-- GSAP -->
+    <rect x="780"
+          y="138"
+          width="95"
+          height="38"
+          rx="9"
+          fill="#88ce02"/>
+
+    <text x="827.5"
+          y="163"
+          fill="#101010">
+      GSAP
+    </text>
+
+
+    <!-- UI -->
+    <rect x="890"
+          y="138"
+          width="115"
+          height="38"
+          rx="9"
+          fill="#6366f1"/>
+
+    <text x="947.5"
+          y="163"
+          fill="#ffffff">
+      UI / UX
+    </text>
+
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- BACKEND                                                -->
+  <!-- ===================================================== -->
+
+  <text x="580"
+        y="213"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        font-weight="700"
+        fill="#eaf6ff">
+    BACKEND
+  </text>
+
+
+  <g font-family="Arial, Helvetica, sans-serif"
+     font-size="13"
+     font-weight="700"
+     text-anchor="middle">
+
+    <!-- Python -->
+    <rect x="205"
+          y="231"
+          width="115"
+          height="38"
+          rx="9"
+          fill="#3776ab"/>
+
+    <text x="262.5"
+          y="256"
+          fill="#ffffff">
+      PYTHON
+    </text>
+
+
+    <!-- Flask -->
+    <rect x="335"
+          y="231"
+          width="105"
+          height="38"
+          rx="9"
+          fill="#111111"
+          stroke="#ffffff"
+          stroke-opacity="0.2"/>
+
+    <text x="387.5"
+          y="256"
+          fill="#ffffff">
+      FLASK
+    </text>
+
+
+    <!-- REST API -->
+    <rect x="455"
+          y="231"
+          width="125"
+          height="38"
+          rx="9"
+          fill="#7c5cff"/>
+
+    <text x="517.5"
+          y="256"
+          fill="#ffffff">
+      REST API
+    </text>
+
+
+    <!-- Java -->
+    <rect x="595"
+          y="231"
+          width="105"
+          height="38"
+          rx="9"
+          fill="#e76f00"/>
+
+    <text x="647.5"
+          y="256"
+          fill="#ffffff">
+      JAVA
+    </text>
+
+
+    <!-- Node -->
+    <rect x="715"
+          y="231"
+          width="115"
+          height="38"
+          rx="9"
+          fill="#339933"/>
+
+    <text x="772.5"
+          y="256"
+          fill="#ffffff">
+      NODE.JS
+    </text>
+
+
+    <!-- APIs -->
+    <rect x="845"
+          y="231"
+          width="110"
+          height="38"
+          rx="9"
+          fill="#00a8e8"/>
+
+    <text x="900"
+          y="256"
+          fill="#ffffff">
+      API DEV
+    </text>
+
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- DATABASE                                               -->
+  <!-- ===================================================== -->
+
+  <text x="580"
+        y="306"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        font-weight="700"
+        fill="#eaf6ff">
+    DATABASE
+  </text>
+
+
+  <g font-family="Arial, Helvetica, sans-serif"
+     font-size="13"
+     font-weight="700"
+     text-anchor="middle">
+
+    <!-- SQLite -->
+    <rect x="315"
+          y="324"
+          width="115"
+          height="38"
+          rx="9"
+          fill="#003b57"/>
+
+    <text x="372.5"
+          y="349"
+          fill="#ffffff">
+      SQLITE
+    </text>
+
+
+    <!-- MySQL -->
+    <rect x="445"
+          y="324"
+          width="110"
+          height="38"
+          rx="9"
+          fill="#4479a1"/>
+
+    <text x="500"
+          y="349"
+          fill="#ffffff">
+      MYSQL
+    </text>
+
+
+    <!-- MongoDB -->
+    <rect x="570"
+          y="324"
+          width="130"
+          height="38"
+          rx="9"
+          fill="#47a248"/>
+
+    <text x="635"
+          y="349"
+          fill="#ffffff">
+      MONGODB
+    </text>
+
+
+    <!-- Database -->
+    <rect x="715"
+          y="324"
+          width="130"
+          height="38"
+          rx="9"
+          fill="#334155"/>
+
+    <text x="780"
+          y="349"
+          fill="#ffffff">
+      DATABASE
+    </text>
+
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- AI / COMPUTER VISION                                   -->
+  <!-- ===================================================== -->
+
+  <text x="580"
+        y="400"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        font-weight="700"
+        fill="#eaf6ff">
+    AI / COMPUTER VISION
+  </text>
+
+
+  <g font-family="Arial, Helvetica, sans-serif"
+     font-size="13"
+     font-weight="700"
+     text-anchor="middle">
+
+    <!-- Gemini -->
+    <rect x="150"
+          y="418"
+          width="120"
+          height="38"
+          rx="9"
+          fill="#4285f4"/>
+
+    <text x="210"
+          y="443"
+          fill="#ffffff">
+      GEMINI API
+    </text>
+
+
+    <!-- MediaPipe -->
+    <rect x="285"
+          y="418"
+          width="130"
+          height="38"
+          rx="9"
+          fill="#00a8e8"/>
+
+    <text x="350"
+          y="443"
+          fill="#ffffff">
+      MEDIAPIPE
+    </text>
+
+
+    <!-- OpenCV -->
+    <rect x="430"
+          y="418"
+          width="115"
+          height="38"
+          rx="9"
+          fill="#5c3ee8"/>
+
+    <text x="487.5"
+          y="443"
+          fill="#ffffff">
+      OPENCV
+    </text>
+
+
+    <!-- TensorFlow -->
+    <rect x="560"
+          y="418"
+          width="145"
+          height="38"
+          rx="9"
+          fill="#ff6f00"/>
+
+    <text x="632.5"
+          y="443"
+          fill="#ffffff">
+      TENSORFLOW
+    </text>
+
+
+    <!-- Speech -->
+    <rect x="720"
+          y="418"
+          width="125"
+          height="38"
+          rx="9"
+          fill="#8b5cf6"/>
+
+    <text x="782.5"
+          y="443"
+          fill="#ffffff">
+      SPEECH AI
+    </text>
+
+
+    <!-- ML -->
+    <rect x="860"
+          y="418"
+          width="110"
+          height="38"
+          rx="9"
+          fill="#ec4899"/>
+
+    <text x="915"
+          y="443"
+          fill="#ffffff">
+      ML
+    </text>
+
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- UNREAL / 3D                                            -->
+  <!-- ===================================================== -->
+
+  <text x="580"
+        y="494"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        font-weight="700"
+        fill="#eaf6ff">
+    3D / REAL-TIME
+  </text>
+
+
+  <g font-family="Arial, Helvetica, sans-serif"
+     font-size="13"
+     font-weight="700"
+     text-anchor="middle">
+
+    <!-- Unreal -->
+    <rect x="260"
+          y="512"
+          width="150"
+          height="38"
+          rx="9"
+          fill="#111111"
+          stroke="#ffffff"
+          stroke-opacity="0.25"/>
+
+    <text x="335"
+          y="537"
+          fill="#ffffff">
+      UNREAL ENGINE
+    </text>
+
+
+    <!-- MetaHuman -->
+    <rect x="425"
+          y="512"
+          width="145"
+          height="38"
+          rx="9"
+          fill="#4f46e5"/>
+
+    <text x="497.5"
+          y="537"
+          fill="#ffffff">
+      METAHUMAN
+    </text>
+
+
+    <!-- Convai -->
+    <rect x="585"
+          y="512"
+          width="115"
+          height="38"
+          rx="9"
+          fill="#9333ea"/>
+
+    <text x="642.5"
+          y="537"
+          fill="#ffffff">
+      CONVAI
+    </text>
+
+
+    <!-- Git -->
+    <rect x="715"
+          y="512"
+          width="90"
+          height="38"
+          rx="9"
+          fill="#f05032"/>
+
+    <text x="760"
+          y="537"
+          fill="#ffffff">
+      GIT
+    </text>
+
+
+    <!-- GitHub -->
+    <rect x="820"
+          y="512"
+          width="110"
+          height="38"
+          rx="9"
+          fill="#24292e"/>
+
+    <text x="875"
+          y="537"
+          fill="#ffffff">
+      GITHUB
+    </text>
+
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- FOOTER                                                 -->
+  <!-- ===================================================== -->
+
+  <line x1="300"
+        y1="580"
+        x2="860"
+        y2="580"
+        stroke="url(#lineGradient)"
+        stroke-width="1.5"
+        filter="url(#glow)"/>
+
+
+  <text x="580"
+        y="605"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="11"
+        letter-spacing="3"
+        fill="#7187ae">
+    BUILDING AI • FULL STACK • COMPUTER VISION • 3D
+  </text>
+
+
+  <!-- Animated scanner -->
+
+  <circle cx="300"
+          cy="580"
+          r="3"
+          fill="#00eaff"
+          filter="url(#strongGlow)">
+
+    <animate
+      attributeName="cx"
+      values="300;860;300"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
