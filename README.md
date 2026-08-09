@@ -14,13 +14,11 @@
 <h1>Hi, I'm A.VIKRAM👋</h1>
 <h3>BTECH CSE STUDENT</h3>
 
-<a href="https://github.com/vikram662005">
+<a href="https://www.linkedin.com/in/a-vikram-7a272b276?utm_source=share_via&utm_content=profile&utm_medium=member_android">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 <a href="mailto:vikram.csee@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-<img src="https://komarev.com/ghpvc/?username=Gowtham-R03&style=for-the-badge&color=6a4fea&label=PROFILE+VIEWS">
+  
 
 <br/>
 
