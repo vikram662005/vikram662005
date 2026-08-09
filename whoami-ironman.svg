@@ -1,43 +1,900 @@
-<text x="40" y="98" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">name</tspan><tspan fill="#c9a97a">: </tspan><tspan>Vikram</tspan>
-</text>
+<svg width="1160" height="420" viewBox="0 0 1160 420" xmlns="http://www.w3.org/2000/svg">
 
-<text x="40" y="126" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">role</tspan><tspan fill="#c9a97a">: </tspan><tspan>AI &amp; Full-Stack Developer</tspan>
-</text>
+  <defs>
 
-<text x="40" y="154" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">based_in</tspan><tspan fill="#c9a97a">: </tspan><tspan>India</tspan>
-</text>
+    <!-- ================= BACKGROUND ================= -->
 
-<text x="40" y="182" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">focus</tspan><tspan fill="#c9a97a">: </tspan><tspan>[AI, Computer Vision, Full-Stack Development]</tspan>
-</text>
+    <linearGradient id="bg"
+      x1="0%" y1="0%"
+      x2="100%" y2="100%">
 
-<text x="40" y="210" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">languages</tspan><tspan fill="#c9a97a">: </tspan><tspan>[Python, JavaScript, C, C++]</tspan>
-</text>
+      <stop offset="0%" stop-color="#02030a"/>
+      <stop offset="45%" stop-color="#071321"/>
+      <stop offset="75%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#010207"/>
 
-<text x="40" y="238" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">backend</tspan><tspan fill="#c9a97a">: </tspan><tspan>[Flask, REST API, SQLite]</tspan>
-</text>
+    </linearGradient>
 
-<text x="40" y="266" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">ai_stack</tspan><tspan fill="#c9a97a">: </tspan><tspan>[Gemini API, MediaPipe, Speech Recognition]</tspan>
-</text>
 
-<text x="40" y="294" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">3d_stack</tspan><tspan fill="#c9a97a">: </tspan><tspan>[Unreal Engine, MetaHuman, Convai]</tspan>
-</text>
+    <!-- ================= CYAN GRADIENT ================= -->
 
-<text x="40" y="322" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">building</tspan><tspan fill="#c9a97a">: </tspan><tspan>AI-powered applications &amp; interactive systems</tspan>
-</text>
+    <linearGradient id="cyan"
+      x1="0%" y1="0%"
+      x2="100%" y2="0%">
 
-<text x="40" y="350" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">current_project</tspan><tspan fill="#c9a97a">: </tspan><tspan>AI Interview Coach</tspan>
-</text>
+      <stop offset="0%" stop-color="#00f6ff"/>
+      <stop offset="50%" stop-color="#00aaff"/>
+      <stop offset="100%" stop-color="#7a5cff"/>
 
-<text x="40" y="378" font-size="15" fill="#f0e6d2">
-  <tspan fill="#ffce54">goal</tspan><tspan fill="#c9a97a">: </tspan><tspan>Building intelligent &amp; immersive developer experiences</tspan>
-</text>
+    </linearGradient>
+
+
+    <!-- ================= GOLD GRADIENT ================= -->
+
+    <linearGradient id="gold"
+      x1="0%" y1="0%"
+      x2="100%" y2="0%">
+
+      <stop offset="0%" stop-color="#ff9d42"/>
+      <stop offset="50%" stop-color="#ffe08a"/>
+      <stop offset="100%" stop-color="#ff9d42"/>
+
+    </linearGradient>
+
+
+    <!-- ================= GRID ================= -->
+
+    <pattern id="grid"
+      width="35"
+      height="35"
+      patternUnits="userSpaceOnUse">
+
+      <path
+        d="M35 0H0V35"
+        fill="none"
+        stroke="#19334d"
+        stroke-width="0.7"
+        opacity="0.35"/>
+
+    </pattern>
+
+
+    <!-- ================= GLOW ================= -->
+
+    <filter id="glow"
+      x="-80%"
+      y="-80%"
+      width="260%"
+      height="260%">
+
+      <feGaussianBlur
+        stdDeviation="3"
+        result="blur"/>
+
+      <feMerge>
+
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+
+      </feMerge>
+
+    </filter>
+
+
+    <filter id="bigGlow"
+      x="-100%"
+      y="-100%"
+      width="300%"
+      height="300%">
+
+      <feGaussianBlur
+        stdDeviation="8"
+        result="blur"/>
+
+      <feMerge>
+
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+
+      </feMerge>
+
+    </filter>
+
+
+    <!-- ================= RADIAL CORE ================= -->
+
+    <radialGradient id="core">
+
+      <stop offset="0%"
+        stop-color="#ffffff"/>
+
+      <stop offset="20%"
+        stop-color="#00f6ff"/>
+
+      <stop offset="55%"
+        stop-color="#006dff"
+        stop-opacity="0.7"/>
+
+      <stop offset="100%"
+        stop-color="#00152a"
+        stop-opacity="0"/>
+
+    </radialGradient>
+
+
+    <!-- ================= SCAN GRADIENT ================= -->
+
+    <linearGradient id="scan">
+
+      <stop offset="0%"
+        stop-color="#00f6ff"
+        stop-opacity="0"/>
+
+      <stop offset="50%"
+        stop-color="#00f6ff"
+        stop-opacity="0.8"/>
+
+      <stop offset="100%"
+        stop-color="#00f6ff"
+        stop-opacity="0"/>
+
+    </linearGradient>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!-- MAIN BACKGROUND                                   -->
+  <!-- ================================================= -->
+
+  <rect
+    width="1160"
+    height="420"
+    rx="22"
+    fill="url(#bg)"/>
+
+
+  <rect
+    width="1160"
+    height="420"
+    rx="22"
+    fill="url(#grid)"/>
+
+
+  <!-- Outer border -->
+
+  <rect
+    x="1"
+    y="1"
+    width="1158"
+    height="418"
+    rx="21"
+    fill="none"
+    stroke="#183b57"
+    stroke-width="2"/>
+
+
+  <rect
+    x="8"
+    y="8"
+    width="1144"
+    height="404"
+    rx="17"
+    fill="none"
+    stroke="#00d9ff"
+    stroke-opacity="0.12"/>
+
+
+  <!-- ================================================= -->
+  <!-- HEADER                                            -->
+  <!-- ================================================= -->
+
+  <text
+    x="580"
+    y="43"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="25"
+    font-weight="700"
+    letter-spacing="6"
+    fill="#effcff">
+
+    &lt; WHO_AM_I /&gt;
+
+  </text>
+
+
+  <text
+    x="580"
+    y="66"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    letter-spacing="4"
+    fill="#507d99">
+
+    ARTIFICIAL INTELLIGENCE // HUMAN INTELLIGENCE // BUILDING THE FUTURE
+
+  </text>
+
+
+  <!-- Header line -->
+
+  <line
+    x1="320"
+    y1="82"
+    x2="840"
+    y2="82"
+    stroke="url(#cyan)"
+    stroke-width="2"
+    filter="url(#glow)"/>
+
+
+  <!-- Moving scan -->
+
+  <rect
+    x="320"
+    y="80"
+    width="90"
+    height="3"
+    fill="url(#scan)">
+
+    <animate
+      attributeName="x"
+      values="320;750;320"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- ================================================= -->
+  <!-- LEFT IDENTITY TERMINAL                           -->
+  <!-- ================================================= -->
+
+  <rect
+    x="45"
+    y="105"
+    width="300"
+    height="250"
+    rx="14"
+    fill="#02060c"
+    stroke="#164b64"
+    stroke-width="1.5"/>
+
+
+  <!-- Terminal header -->
+
+  <rect
+    x="45"
+    y="105"
+    width="300"
+    height="38"
+    rx="14"
+    fill="#06121d"/>
+
+
+  <circle
+    cx="70"
+    cy="124"
+    r="5"
+    fill="#ff5f56"/>
+
+
+  <circle
+    cx="88"
+    cy="124"
+    r="5"
+    fill="#ffbd2e"/>
+
+
+  <circle
+    cx="106"
+    cy="124"
+    r="5"
+    fill="#27c93f"/>
+
+
+  <text
+    x="130"
+    y="128"
+    font-family="monospace"
+    font-size="10"
+    fill="#4f748b">
+
+    AI_TERMINAL
+
+  </text>
+
+
+  <line
+    x1="60"
+    y1="151"
+    x2="330"
+    y2="151"
+    stroke="#15354a"/>
+
+
+  <!-- Terminal content -->
+
+  <g
+    font-family="monospace"
+    font-size="13">
+
+    <text
+      x="65"
+      y="178"
+      fill="#00f6ff">
+
+      $ identity
+
+    </text>
+
+
+    <text
+      x="65"
+      y="200"
+      fill="#ffffff">
+
+      VIKRAM
+
+    </text>
+
+
+    <text
+      x="65"
+      y="228"
+      fill="#00f6ff">
+
+      $ specialization
+
+    </text>
+
+
+    <text
+      x="65"
+      y="250"
+      fill="#ffe08a">
+
+      AI / FULL STACK / CV
+
+    </text>
+
+
+    <text
+      x="65"
+      y="278"
+      fill="#00f6ff">
+
+      $ location
+
+    </text>
+
+
+    <text
+      x="65"
+      y="300"
+      fill="#ffffff">
+
+      INDIA
+
+    </text>
+
+
+    <text
+      x="65"
+      y="328"
+      fill="#00f6ff">
+
+      $ state
+
+    </text>
+
+
+    <text
+      x="65"
+      y="350"
+      fill="#7dff9b">
+
+      ● BUILDING...
+
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- CENTER CORE                                      -->
+  <!-- ================================================= -->
+
+  <g transform="translate(580,215)">
+
+    <!-- Outer energy -->
+
+    <circle
+      r="108"
+      fill="none"
+      stroke="#00eaff"
+      stroke-opacity="0.08"
+      stroke-width="2"/>
+
+
+    <circle
+      r="91"
+      fill="none"
+      stroke="#00eaff"
+      stroke-opacity="0.18"
+      stroke-width="1"/>
+
+
+    <circle
+      r="73"
+      fill="none"
+      stroke="#00eaff"
+      stroke-opacity="0.28"
+      stroke-width="1"/>
+
+
+    <!-- Rotating ring -->
+
+    <circle
+      r="84"
+      fill="none"
+      stroke="url(#cyan)"
+      stroke-width="2"
+      stroke-dasharray="18 12"
+      filter="url(#glow)">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0"
+        to="360"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- Second rotating ring -->
+
+    <circle
+      r="64"
+      fill="none"
+      stroke="url(#gold)"
+      stroke-width="1.5"
+      stroke-dasharray="7 14"
+      opacity="0.8">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="360"
+        to="0"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- Radar sweep -->
+
+    <path
+      d="M0,0 L0,-80 A80,80 0 0 1 56,-57 Z"
+      fill="#00eaff"
+      opacity="0.11">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0"
+        to="360"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+
+    <!-- Core glow -->
+
+    <circle
+      r="48"
+      fill="url(#core)"
+      filter="url(#bigGlow)">
+
+      <animate
+        attributeName="r"
+        values="40;55;40"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values="0.55;1;0.55"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- Core -->
+
+    <circle
+      r="22"
+      fill="#020a12"
+      stroke="#00f6ff"
+      stroke-width="2"
+      filter="url(#glow)"/>
+
+
+    <circle
+      r="8"
+      fill="#ffffff"
+      filter="url(#bigGlow)"/>
+
+
+    <!-- AI triangle -->
+
+    <path
+      d="M0,-12 L11,8 L-11,8 Z"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="1.5"/>
+
+
+    <!-- Orbit dots -->
+
+    <circle
+      cx="0"
+      cy="-84"
+      r="4"
+      fill="#00f6ff"
+      filter="url(#glow)"/>
+
+
+    <circle
+      cx="84"
+      cy="0"
+      r="4"
+      fill="#ffe08a"
+      filter="url(#glow)"/>
+
+
+    <circle
+      cx="0"
+      cy="84"
+      r="4"
+      fill="#7dff9b"
+      filter="url(#glow)"/>
+
+
+    <circle
+      cx="-84"
+      cy="0"
+      r="4"
+      fill="#b26cff"
+      filter="url(#glow)"/>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- CENTER TITLE                                      -->
+  <!-- ================================================= -->
+
+  <text
+    x="580"
+    y="336"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="12"
+    letter-spacing="3"
+    fill="#4e829d">
+
+    CURRENT MISSION
+
+  </text>
+
+
+  <text
+    x="580"
+    y="358"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    font-weight="700"
+    fill="#ffffff">
+
+    AI INTERVIEW COACH
+
+  </text>
+
+
+  <text
+    x="580"
+    y="378"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="10"
+    fill="#00eaff">
+
+    GEMINI • MEDIAPIPE • FLASK • REAL-TIME ANALYSIS
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- RIGHT SYSTEM PANEL                                -->
+  <!-- ================================================= -->
+
+  <rect
+    x="815"
+    y="105"
+    width="300"
+    height="250"
+    rx="14"
+    fill="#02060c"
+    stroke="#164b64"
+    stroke-width="1.5"/>
+
+
+  <text
+    x="840"
+    y="133"
+    font-family="monospace"
+    font-size="10"
+    letter-spacing="2"
+    fill="#4f748b">
+
+    SYSTEM_CAPABILITIES
+
+  </text>
+
+
+  <line
+    x1="835"
+    y1="146"
+    x2="1095"
+    y2="146"
+    stroke="#15354a"/>
+
+
+  <!-- Capability 1 -->
+
+  <circle
+    cx="845"
+    cy="174"
+    r="4"
+    fill="#7dff9b"
+    filter="url(#glow)"/>
+
+
+  <text
+    x="860"
+    y="179"
+    font-family="monospace"
+    font-size="12"
+    fill="#e9fbff">
+
+    AI QUESTION GENERATION
+
+  </text>
+
+
+  <!-- Capability 2 -->
+
+  <circle
+    cx="845"
+    cy="207"
+    r="4"
+    fill="#00eaff"
+    filter="url(#glow)"/>
+
+
+  <text
+    x="860"
+    y="212"
+    font-family="monospace"
+    font-size="12"
+    fill="#e9fbff">
+
+    SPEECH ANALYSIS
+
+  </text>
+
+
+  <!-- Capability 3 -->
+
+  <circle
+    cx="845"
+    cy="240"
+    r="4"
+    fill="#ffe08a"
+    filter="url(#glow)"/>
+
+
+  <text
+    x="860"
+    y="245"
+    font-family="monospace"
+    font-size="12"
+    fill="#e9fbff">
+
+    FACIAL / EYE ANALYSIS
+
+  </text>
+
+
+  <!-- Capability 4 -->
+
+  <circle
+    cx="845"
+    cy="273"
+    r="4"
+    fill="#b26cff"
+    filter="url(#glow)"/>
+
+
+  <text
+    x="860"
+    y="278"
+    font-family="monospace"
+    font-size="12"
+    fill="#e9fbff">
+
+    REAL-TIME FEEDBACK
+
+  </text>
+
+
+  <!-- Capability 5 -->
+
+  <circle
+    cx="845"
+    cy="306"
+    r="4"
+    fill="#ff8c42"
+    filter="url(#glow)"/>
+
+
+  <text
+    x="860"
+    y="311"
+    font-family="monospace"
+    font-size="12"
+    fill="#e9fbff">
+
+    3D / METAHUMAN
+
+  </text>
+
+
+  <!-- Status -->
+
+  <rect
+    x="838"
+    y="326"
+    width="254"
+    height="17"
+    rx="5"
+    fill="#071b18"
+    stroke="#7dff9b"
+    stroke-opacity="0.25"/>
+
+
+  <circle
+    cx="850"
+    cy="334"
+    r="3"
+    fill="#7dff9b">
+
+    <animate
+      attributeName="opacity"
+      values="0.3;1;0.3"
+      dur="1.4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <text
+    x="860"
+    y="338"
+    font-family="monospace"
+    font-size="9"
+    fill="#7dff9b">
+
+    SYSTEM ONLINE // READY TO BUILD
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- BOTTOM TECH STREAM                                -->
+  <!-- ================================================= -->
+
+  <g
+    font-family="monospace"
+    font-size="9"
+    fill="#36566c">
+
+    <text x="50" y="397">
+      [AI]
+    </text>
+
+    <text x="100" y="397">
+      [VISION]
+    </text>
+
+    <text x="180" y="397">
+      [FLASK]
+    </text>
+
+    <text x="250" y="397">
+      [GEMINI]
+    </text>
+
+    <text x="330" y="397">
+      [UNREAL ENGINE]
+    </text>
+
+    <text x="470" y="397">
+      [METAHUMAN]
+    </text>
+
+    <text x="580" y="397">
+      [CONVAI]
+    </text>
+
+    <text x="670" y="397">
+      [PYTHON]
+    </text>
+
+    <text x="750" y="397">
+      [JAVASCRIPT]
+    </text>
+
+    <text x="880" y="397">
+      [FULL STACK]
+    </text>
+
+    <text x="1000" y="397">
+      [BUILD]
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- CORNER HUD MARKS                                  -->
+  <!-- ================================================= -->
+
+  <path
+    d="M25 55V25H55"
+    fill="none"
+    stroke="#00eaff"
+    stroke-width="2"/>
+
+
+  <path
+    d="M1105 25H1135V55"
+    fill="none"
+    stroke="#00eaff"
+    stroke-width="2"/>
+
+
+  <path
+    d="M25 365V395H55"
+    fill="none"
+    stroke="#00eaff"
+    stroke-width="2"/>
+
+
+  <path
+    d="M1105 395H1135V365"
+    fill="none"
+    stroke="#00eaff"
+    stroke-width="2"/>
+
+
+</svg>
