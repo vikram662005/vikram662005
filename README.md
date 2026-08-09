@@ -17,6 +17,9 @@
 <a href="https://www.linkedin.com/in/a-vikram-7a272b276?utm_source=share_via&utm_content=profile&utm_medium=member_android">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
+<a href="vikram.csee@gmail.com">
+  <img src="https://img.shields.io/badge/gmail-0A66C2?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
 <a href="mailto:vikram.csee@gmail.com">
   
 
