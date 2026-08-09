@@ -55,74 +55,13 @@
 
 <br>
 
-<details open>
-<summary><b>🟡 Senior Software Engineer — Canorouse Technology</b> &nbsp;<sub>Feb 2026 – Present</sub></summary>
-<br>
 
-Building AI-powered SaaS products — from LLM-driven features to scalable multi-tenant cloud architecture.
 
-<code>Node.js</code> <code>React</code> <code>OpenAI API</code> <code>AWS</code> <code>MongoDB</code>
-</details>
-
-<details>
-<summary><b>🔵 Software Engineer — Cobay</b> &nbsp;<sub>Jan 2025 – Aug 2025</sub></summary>
-<br>
-
-Built shipping & inventory systems for *Vilvah, Dudeme, Oorla*.
-
-<code>Vue.js</code> <code>Node.js</code> <code>MongoDB</code> <code>AWS EC2/S3</code> <code>Webhooks</code>
-</details>
-
-<details>
-<summary><b>🔵 Full Stack Developer — SCH Infotech</b> &nbsp;<sub>Apr 2023 – Aug 2023</sub></summary>
-<br>
-
-Angular + NestJS/Node.js apps for *Emirates Steel, L&T*.
-
-<code>Angular</code> <code>NestJS</code> <code>MySQL</code> <code>MongoDB</code>
-</details>
-
-<details>
-<summary><b>🔵 Application Developer — IBM</b> &nbsp;<sub>Aug 2022 – Jan 2023</sub></summary>
-<br>
-
-REST API integrations for *AT&T*.
-
-<code>Angular</code> <code>Spring Boot</code>
-</details>
-
-**🎓 B.E. Instrumentation & Control Engineering** — PSG College of Technology, Coimbatore (2022)
-**📜 Certified:** IBM GBS Associate (Java Full Stack) · Red Hat Certified Specialist in Containers & Kubernetes
+**🎓 BTECH COMPUTER SCIENCE AND ENGINEERING** — VIMAL JYOTHI ENGINEERING COLLEGE, KANNUR,KERELA (2027)
+**📜 DIPLOMA IN COMPUTER SCIENCE AND ENGINEERING -GURU RAGHAVENDIRA POLYTECHNIC COLLEGE,VELLORE,TAMILNADU(2024)
 
 <br>
 
-## 🎨 Featured Projects
-
-| | | |
-|---|---|---|
-| 🔺 **[laser-flow](https://github.com/Gowtham-R03/laser-flow)** | Full-screen animated WebGL laser beam effect | `three.js` `React` |
-| 🌀 **[image-trail](https://github.com/Gowtham-R03/image-trail)** | Interactive image trail cursor effect | `React` `TypeScript` `GSAP` |
-| 🖐️ **[AirDrawer](https://github.com/Gowtham-R03/AirDrawer)** | Draw in the air using AI-powered hand tracking | `MediaPipe` `React` `Canvas` |
-| ✋ **[Hand-Tracking](https://github.com/Gowtham-R03/Hand-Tracking)** | Real-time webcam hand tracking with glitch visuals | `MediaPipe` `OpenCV` |
-| 🪩 **[Holographic-Tilt-Login](https://github.com/Gowtham-R03/Holographic-Tilt-Login)** | Holographic tilt-effect login card | `CSS` |
-| 🚗 **[CarCounter](https://github.com/Gowtham-R03/CarCounter)** | Drone-view vehicle counting & tracking | `OpenCV` `Python` |
-
-<details>
-<summary><b>📦 More projects</b></summary>
-<br>
-
-| Project | Description |
-|---|---|
-| [Human-Pose-Detector](https://github.com/Gowtham-R03/Human-Pose-Detector) | 33-landmark human pose detection with MediaPipe |
-| [CNN-TrafficSign-Detection](https://github.com/Gowtham-R03/CNN-TrafficSign-Detection) | CNN model for traffic sign detection |
-| [CNN_DigitDetection](https://github.com/Gowtham-R03/CNN_DigitDetection) | Digit classification & detection using CNN |
-| [Customer_Churn_Prediction](https://github.com/Gowtham-R03/Customer_Churn_Prediction) | ANN model to predict customer churn |
-| [Attendance-Monitoring](https://github.com/Gowtham-R03/Attendance-Monitoring) | Attendance storage to AWS S3 + local disk |
-| [Object_Detection_Mobile_APP](https://github.com/Gowtham-R03/Object_Detection_Mobile_APP) | Mobile app for image class detection |
-| [3D-Circular-Card](https://github.com/Gowtham-R03/3D-Circular-Card) | CSS 3D circular card interaction |
-| [water-effect](https://github.com/Gowtham-R03/water-effect) | Interactive water ripple visual effect |
-| [XRayVision](https://github.com/Gowtham-R03/XRayVision) | X-ray style hover reveal effect |
-| [Aruco-Markers-Detection](https://github.com/Gowtham-R03/Aruco-Markers-Detection) | ArUco marker detection with OpenCV |
 
 </details>
 
@@ -142,27 +81,7 @@ loads normally again.
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gowtham-R03&layout=compact&theme=tokyonight&hide_border=true"/>
 -->
 
-<div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gowtham-R03&theme=tokyonight&hide_border=true&border_radius=12&short_numbers=true"/>
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gowtham-R03&theme=tokyo-night&hide_border=true&area=true"/>
-
-</div>
-
-<br>
-
-## 🧊 3D Contribution Graph
-
-<div align="center">
-
-<img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph">
-
-</div>
-
-<br>
 
 ## 🐍 Contribution Snake
 
@@ -193,7 +112,7 @@ Holopin badges:
 
 <div align="center">
 
-📫 **Reach me:** [gowthamrr03@gmail.com](mailto:gowthamrr03@gmail.com) · [LinkedIn](https://linkedin.com/in/gowtham-r-kod)
+📫 **Reach me:** [vikram.csee@gmail.com](mailto:vikram.csee@gmail.com) · [LinkedIn]([https://linkedin.com/in/gowtham-r-kod](https://www.linkedin.com/in/a-vikram-7a272b276?utm_source=share_via&utm_content=profile&utm_medium=member_android))
 
 <br>
 
