@@ -1,7 +1,13 @@
 
+<div align="left">
 
+<img src="./vikram_pro_terminal_reveal.gif" width="400" />
 
-<div align="center">
+<br><br>
+
+</div>
+
+<div align="right-top">
 
 # A. VIKRAM
 
@@ -10,13 +16,7 @@
 Building interactive applications and exploring AI-powered solutions.
 
 <br>
-<div align="center">
 
-<img src="./vikram_pro_terminal_reveal.gif" width="1000" />
-
-<br><br>
-
-</div>
 
 
 [![GitHub](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vikram662005)
