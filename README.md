@@ -9,168 +9,195 @@
 
 <div align="center">
 
-# A. VIKRAM
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8993ea,50:9694fa,100:6ee2f5&height=6&section=header" width="100%">
 
-### `FULL STACK DEVELOPER • PYTHON • AI`
+<h1>Hi, I'm A.VIKRAM👋</h1>
+<h3>Senior Software Engineer · Cloud · System Design</h3>
 
-Building interactive applications and exploring AI-powered solutions.
+<a href="https://linkedin.com/in/gowtham-r-kod">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+<a href="mailto:gowthamrr03@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+<img src="https://komarev.com/ghpvc/?username=Gowtham-R03&style=for-the-badge&color=6a4fea&label=PROFILE+VIEWS">
+
+<br/>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8993EA&center=true&vCenter=true&width=700&lines=Senior+Software+Engineer;Angular+%E2%80%A2+React+%E2%80%A2+Vue+%E2%80%A2+Spring+Boot+%E2%80%A2+Node.js;AI+%26+SaaS+Product+Development;Currently+building+at+Canorouse+Technology" alt="Typing SVG">
+</a>
+
+</div>
 
 <br>
 
+## 🖥️ whoami
 
-
-[![GitHub](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vikram662005)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=white)](vkrm.portfolioo.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/a-vikram-7a272b276?utm_source=share_via&utm_content=profile&utm_medium=member_android)
-
+<div align="center">
+  <img src="./assets/whoami-ironman.svg" alt="whoami" width="100%">
 </div>
 
----
+<br>
 
-## `01 / ABOUT ME`
+## 🛠️ Tech Stack
 
-> Computer Science Engineering Student  
-> Full Stack Developer  
-> Python Developer  
-> AI Enthusiast  
-> Building projects and learning new technologies
+<div align="center">
+  <img src="./assets/techstack-thor.svg" alt="tech stack" width="100%">
+</div>
 
----
+<br>
 
-## `02 / TECH STACK`
+## 💼 Experience
 
-<!-- Frontend -->
-<text x="580" y="66" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">Frontend</text>
-<g font-size="14" font-weight="700">
-  <rect x="300" y="90" width="130" height="38" rx="9" fill="#E34F26"/>
-  <text x="365" y="115" text-anchor="middle" fill="#ffffff" textLength="106" lengthAdjust="spacingAndGlyphs">HTML5</text>
+<div align="center">
+  <img src="./assets/experience-timeline.svg" alt="experience timeline" width="100%">
+</div>
 
-  <rect x="444" y="90" width="120" height="38" rx="9" fill="#1572B6"/>
-  <text x="504" y="115" text-anchor="middle" fill="#ffffff" textLength="96" lengthAdjust="spacingAndGlyphs">CSS3</text>
+<br>
 
-  <rect x="578" y="90" width="145" height="38" rx="9" fill="#F7DF1E"/>
-  <text x="650.5" y="115" text-anchor="middle" fill="#1a1a1a" textLength="121" lengthAdjust="spacingAndGlyphs">JAVASCRIPT</text>
+<details open>
+<summary><b>🟡 Senior Software Engineer — Canorouse Technology</b> &nbsp;<sub>Feb 2026 – Present</sub></summary>
+<br>
 
-  <rect x="737" y="90" width="125" height="38" rx="9" fill="#61DAFB"/>
-  <text x="799.5" y="115" text-anchor="middle" fill="#1a1a1a" textLength="101" lengthAdjust="spacingAndGlyphs">UI / UX</text>
-</g>
+Building AI-powered SaaS products — from LLM-driven features to scalable multi-tenant cloud architecture.
 
-<!-- Backend -->
-<text x="580" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">Backend</text>
-<g font-size="14" font-weight="700">
-  <rect x="310" y="208" width="120" height="38" rx="9" fill="#3776AB"/>
-  <text x="370" y="233" text-anchor="middle" fill="#ffffff" textLength="96" lengthAdjust="spacingAndGlyphs">PYTHON</text>
+<code>Node.js</code> <code>React</code> <code>OpenAI API</code> <code>AWS</code> <code>MongoDB</code>
+</details>
 
-  <rect x="444" y="208" width="115" height="38" rx="9" fill="#000000"/>
-  <text x="501.5" y="233" text-anchor="middle" fill="#ffffff" textLength="91" lengthAdjust="spacingAndGlyphs">FLASK</text>
+<details>
+<summary><b>🔵 Software Engineer — Cobay</b> &nbsp;<sub>Jan 2025 – Aug 2025</sub></summary>
+<br>
 
-  <rect x="573" y="208" width="135" height="38" rx="9" fill="#4B8BBE"/>
-  <text x="640.5" y="233" text-anchor="middle" fill="#ffffff" textLength="111" lengthAdjust="spacingAndGlyphs">REST API</text>
+Built shipping & inventory systems for *Vilvah, Dudeme, Oorla*.
 
-  <rect x="722" y="208" width="135" height="38" rx="9" fill="#ffffff"/>
-  <text x="789.5" y="233" text-anchor="middle" fill="#333333" textLength="111" lengthAdjust="spacingAndGlyphs">JSON</text>
-</g>
+<code>Vue.js</code> <code>Node.js</code> <code>MongoDB</code> <code>AWS EC2/S3</code> <code>Webhooks</code>
+</details>
 
-<!-- Database -->
-<text x="580" y="302" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">Database</text>
-<g font-size="14" font-weight="700">
-  <rect x="475" y="326" width="110" height="38" rx="9" fill="#003B57"/>
-  <text x="530" y="351" text-anchor="middle" fill="#ffffff" textLength="86" lengthAdjust="spacingAndGlyphs">SQLITE</text>
+<details>
+<summary><b>🔵 Full Stack Developer — SCH Infotech</b> &nbsp;<sub>Apr 2023 – Aug 2023</sub></summary>
+<br>
 
-  <rect x="599" y="326" width="130" height="38" rx="9" fill="#47A248"/>
-  <text x="664" y="351" text-anchor="middle" fill="#ffffff" textLength="106" lengthAdjust="spacingAndGlyphs">DATABASE</text>
-</g>
+Angular + NestJS/Node.js apps for *Emirates Steel, L&T*.
 
-<!-- AI / Computer Vision -->
-<text x="580" y="420" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">AI / Computer Vision</text>
-<g font-size="14" font-weight="700">
-  <rect x="220" y="444" width="155" height="38" rx="9" fill="#4285F4"/>
-  <text x="297.5" y="469" text-anchor="middle" fill="#ffffff" textLength="131" lengthAdjust="spacingAndGlyphs">GEMINI API</text>
+<code>Angular</code> <code>NestJS</code> <code>MySQL</code> <code>MongoDB</code>
+</details>
 
-  <rect x="393" y="444" width="130" height="38" rx="9" fill="#000000"/>
-  <text x="458" y="469" text-anchor="middle" fill="#ffffff" textLength="106" lengthAdjust="spacingAndGlyphs">MEDIAPIPE</text>
+<details>
+<summary><b>🔵 Application Developer — IBM</b> &nbsp;<sub>Aug 2022 – Jan 2023</sub></summary>
+<br>
 
-  <rect x="541" y="444" width="155" height="38" rx="9" fill="#FF6F00"/>
-  <text x="618.5" y="469" text-anchor="middle" fill="#ffffff" textLength="131" lengthAdjust="spacingAndGlyphs">AI EVALUATION</text>
+REST API integrations for *AT&T*.
 
-  <rect x="714" y="444" width="145" height="38" rx="9" fill="#5C3EE8"/>
-  <text x="786.5" y="469" text-anchor="middle" fill="#ffffff" textLength="121" lengthAdjust="spacingAndGlyphs">SPEECH AI</text>
-</g>
+<code>Angular</code> <code>Spring Boot</code>
+</details>
 
-<!-- Unreal Engine / MetaHuman -->
-<text x="580" y="538" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">3D Interview Environment</text>
-<g font-size="14" font-weight="700">
-  <rect x="285" y="562" width="175" height="38" rx="9" fill="#111111" stroke="#ffffff" stroke-opacity="0.2"/>
-  <text x="372.5" y="587" text-anchor="middle" fill="#ffffff" textLength="151" lengthAdjust="spacingAndGlyphs">UNREAL ENGINE</text>
+**🎓 B.E. Instrumentation & Control Engineering** — PSG College of Technology, Coimbatore (2022)
+**📜 Certified:** IBM GBS Associate (Java Full Stack) · Red Hat Certified Specialist in Containers & Kubernetes
 
-  <rect x="484" y="562" width="145" height="38" rx="9" fill="#202020" stroke="#ffffff" stroke-opacity="0.2"/>
-  <text x="556.5" y="587" text-anchor="middle" fill="#ffffff" textLength="121" lengthAdjust="spacingAndGlyphs">METAHUMAN</text>
+<br>
 
-  <rect x="653" y="562" width="115" height="38" rx="9" fill="#00AEEF"/>
-  <text x="710.5" y="587" text-anchor="middle" fill="#ffffff" textLength="91" lengthAdjust="spacingAndGlyphs">CONVAI</text>
+## 🎨 Featured Projects
 
-  <rect x="792" y="562" width="100" height="38" rx="9" fill="#F05032"/>
-  <text x="842" y="587" text-anchor="middle" fill="#ffffff" textLength="76" lengthAdjust="spacingAndGlyphs">GIT</text>
-</g>## `03 / FEATURED PROJECTS`
+| | | |
+|---|---|---|
+| 🔺 **[laser-flow](https://github.com/Gowtham-R03/laser-flow)** | Full-screen animated WebGL laser beam effect | `three.js` `React` |
+| 🌀 **[image-trail](https://github.com/Gowtham-R03/image-trail)** | Interactive image trail cursor effect | `React` `TypeScript` `GSAP` |
+| 🖐️ **[AirDrawer](https://github.com/Gowtham-R03/AirDrawer)** | Draw in the air using AI-powered hand tracking | `MediaPipe` `React` `Canvas` |
+| ✋ **[Hand-Tracking](https://github.com/Gowtham-R03/Hand-Tracking)** | Real-time webcam hand tracking with glitch visuals | `MediaPipe` `OpenCV` |
+| 🪩 **[Holographic-Tilt-Login](https://github.com/Gowtham-R03/Holographic-Tilt-Login)** | Holographic tilt-effect login card | `CSS` |
+| 🚗 **[CarCounter](https://github.com/Gowtham-R03/CarCounter)** | Drone-view vehicle counting & tracking | `OpenCV` `Python` |
 
-### AI INTERVIEW COACH
+<details>
+<summary><b>📦 More projects</b></summary>
+<br>
 
-AI-powered interview platform that generates interview questions, processes answers and provides feedback.
+| Project | Description |
+|---|---|
+| [Human-Pose-Detector](https://github.com/Gowtham-R03/Human-Pose-Detector) | 33-landmark human pose detection with MediaPipe |
+| [CNN-TrafficSign-Detection](https://github.com/Gowtham-R03/CNN-TrafficSign-Detection) | CNN model for traffic sign detection |
+| [CNN_DigitDetection](https://github.com/Gowtham-R03/CNN_DigitDetection) | Digit classification & detection using CNN |
+| [Customer_Churn_Prediction](https://github.com/Gowtham-R03/Customer_Churn_Prediction) | ANN model to predict customer churn |
+| [Attendance-Monitoring](https://github.com/Gowtham-R03/Attendance-Monitoring) | Attendance storage to AWS S3 + local disk |
+| [Object_Detection_Mobile_APP](https://github.com/Gowtham-R03/Object_Detection_Mobile_APP) | Mobile app for image class detection |
+| [3D-Circular-Card](https://github.com/Gowtham-R03/3D-Circular-Card) | CSS 3D circular card interaction |
+| [water-effect](https://github.com/Gowtham-R03/water-effect) | Interactive water ripple visual effect |
+| [XRayVision](https://github.com/Gowtham-R03/XRayVision) | X-ray style hover reveal effect |
+| [Aruco-Markers-Detection](https://github.com/Gowtham-R03/Aruco-Markers-Detection) | ArUco marker detection with OpenCV |
 
-**Stack:**  
-`Next.js` `React` `Tailwind CSS` `Prisma` `PostgreSQL` `Google Gemini API` `Clerk` `Inngest` `Vercel`
+</details>
 
----
+<br>
 
-### DEEPFAKE AUDIO DETECTION
+## 📊 GitHub Analytics
 
-Machine-learning based system for detecting manipulated or synthetic audio.
+<!--
+github-readme-stats.vercel.app (stats card + top-langs below) is
+currently returning HTTP 503 "DEPLOYMENT_PAUSED" — its free-tier
+Vercel deployment hit a usage cap. This is a known recurring issue
+with that public instance and it typically comes back on its own.
+Uncomment the two lines below once https://github-readme-stats.vercel.app
+loads normally again.
 
-**Stack:**  
-`Python` `Librosa` `MFCC` `Chroma Features` `Mel-Spectrograms` `Scikit-learn` `NumPy` `Pandas`
-
----
-
-### INDUSTRIAL VISIT PLANNING & BOOKING SYSTEM
-
-Web application for planning and managing industrial visits.
-
-**Stack:**  
-`ASP.NET` `SQL Server` `HTML` `CSS` `JavaScript`
-
----
-
-## `04 / GITHUB ACTIVITY`
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gowtham-R03&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gowtham-R03&layout=compact&theme=tokyonight&hide_border=true"/>
+-->
 
 <div align="center">
 
-<img src="./stats.svg" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gowtham-R03&theme=tokyonight&hide_border=true&border_radius=12&short_numbers=true"/>
 
-<img src="./streak.svg" width="48%" />
+<br>
 
-<br><br>
-
-<img src="./langs.svg" width="48%" />
-
-<img src="./year.svg" width="48%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gowtham-R03&theme=tokyo-night&hide_border=true&area=true"/>
 
 </div>
 
----
+<br>
 
-## `05 / CURRENTLY`
+## 🧊 3D Contribution Graph
 
-```text
-[+] Building full-stack applications
-[+] Learning AI integration
-[+] Improving Python
-[+] Exploring new technologies
-[+] Working on personal projects
-
-06 / CONNECT
 <div align="center">
+
+<img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph">
 
 </div>
+
+<br>
+
+## 🐍 Contribution Snake
+
 <div align="center">
-KEEP BUILDING • KEEP LEARNING • KEEP EXPLORING
-</div> ```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gowtham-R03/Gowtham-R03/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gowtham-R03/Gowtham-R03/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/Gowtham-R03/Gowtham-R03/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+<!--
+Optional add-ons — uncomment once you have the account/token:
+
+WakaTime weekly breakdown:
+[![wakatime](https://wakatime.com/badge/user/YOUR_WAKATIME_ID.svg)](https://wakatime.com/@YOUR_WAKATIME_ID)
+
+Spotify now playing (via spotify-github-profile by kittinan):
+[![spotify](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem&show_offline=false)](https://spotify-github-profile.vercel.app)
+
+Holopin badges:
+<img src="https://holopin.me/gowtham-r03" alt="Holopin badges" />
+-->
+
+<br>
+
+<div align="center">
+
+📫 **Reach me:** [gowthamrr03@gmail.com](mailto:gowthamrr03@gmail.com) · [LinkedIn](https://linkedin.com/in/gowtham-r-kod)
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6ee2f5,50:9694fa,100:8993ea&height=6&section=footer" width="100%">
+
+</div>
