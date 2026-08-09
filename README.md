@@ -1,3 +1,13 @@
+
+<div align="center">
+
+<img src="./vikram_ascii_portrait.gif" width="700" />
+
+<br><br>
+
+</div>
+
+
 <div align="center">
 
 # A. VIKRAM
