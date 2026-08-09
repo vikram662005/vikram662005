@@ -14,7 +14,7 @@
 <h1>Hi, I'm A.VIKRAM👋</h1>
 <h3>BTECH CSE STUDENT</h3>
 
-<a href="https://github.com/Gowtham-R03/Gowtham-R03/blob/main/README.md?utm_source=sp_auto_dm&fbclid=PAT01DUATlPdRwZG9mAmV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp5AXc4sJny0tHfEqO8WwwS_5TeMGaSQ3LAsXlJCKQXOCxde5SsZYo4z9CiXy_aem_JyX7YxmCdsSzV1VpsZ3DXw">
+<a href="https://github.com/vikram662005">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 <a href="mailto:vikram.csee@gmail.com">
@@ -25,7 +25,7 @@
 <br/>
 
 <a href="https://github.com/vikram662005">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8993EA&center=true&vCenter=true&width=700&lines=BTECH+GRADUATE;HTML+%E2%80%A2+CSS+%E2%80%A2+JS+%E2%80%A2+PYTHON+C+%E2%80%A2+SQL;" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8993EA&center=true&vCenter=true&width=700&lines=FULL+STACK +DEVELOPER;HTML+%E2%80%A2+CSS+%E2%80%A2+JS+%E2%80%A2+PYTHON+%E2%80%A2+C+%E2%80%A2+SQL;" alt="Typing SVG">
 </a>
 
 </div>
