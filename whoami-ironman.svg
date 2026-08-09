@@ -1,0 +1,43 @@
+<text x="40" y="98" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">name</tspan><tspan fill="#c9a97a">: </tspan><tspan>Vikram</tspan>
+</text>
+
+<text x="40" y="126" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">role</tspan><tspan fill="#c9a97a">: </tspan><tspan>AI &amp; Full-Stack Developer</tspan>
+</text>
+
+<text x="40" y="154" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">based_in</tspan><tspan fill="#c9a97a">: </tspan><tspan>India</tspan>
+</text>
+
+<text x="40" y="182" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">focus</tspan><tspan fill="#c9a97a">: </tspan><tspan>[AI, Computer Vision, Full-Stack Development]</tspan>
+</text>
+
+<text x="40" y="210" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">languages</tspan><tspan fill="#c9a97a">: </tspan><tspan>[Python, JavaScript, C, C++]</tspan>
+</text>
+
+<text x="40" y="238" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">backend</tspan><tspan fill="#c9a97a">: </tspan><tspan>[Flask, REST API, SQLite]</tspan>
+</text>
+
+<text x="40" y="266" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">ai_stack</tspan><tspan fill="#c9a97a">: </tspan><tspan>[Gemini API, MediaPipe, Speech Recognition]</tspan>
+</text>
+
+<text x="40" y="294" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">3d_stack</tspan><tspan fill="#c9a97a">: </tspan><tspan>[Unreal Engine, MetaHuman, Convai]</tspan>
+</text>
+
+<text x="40" y="322" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">building</tspan><tspan fill="#c9a97a">: </tspan><tspan>AI-powered applications &amp; interactive systems</tspan>
+</text>
+
+<text x="40" y="350" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">current_project</tspan><tspan fill="#c9a97a">: </tspan><tspan>AI Interview Coach</tspan>
+</text>
+
+<text x="40" y="378" font-size="15" fill="#f0e6d2">
+  <tspan fill="#ffce54">goal</tspan><tspan fill="#c9a97a">: </tspan><tspan>Building intelligent &amp; immersive developer experiences</tspan>
+</text>
