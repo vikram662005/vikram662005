@@ -25,7 +25,7 @@
 <br/>
 
 <a href="https://github.com/vikram662005">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8993EA&center=true&vCenter=true&width=700&lines=FULL+STACK +DEVELOPER;HTML+%E2%80%A2+CSS+%E2%80%A2+JS+%E2%80%A2+PYTHON+%E2%80%A2+C+%E2%80%A2+SQL;" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8993EA&center=true&vCenter=true&width=700&lines=FULL+STACK+DEVELOPER;HTML+%E2%80%A2+CSS+%E2%80%A2+JS+%E2%80%A2+PYTHON+%E2%80%A2+C+%E2%80%A2+SQL;" alt="Typing SVG">
 </a>
 
 </div>
