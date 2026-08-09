@@ -1,13 +1,13 @@
 
-<div align="left">
+<div align="center">
 
-<img src="./vikram_pro_terminal_reveal.gif" width="400" />
+<img src="./vikram_pro_terminal_reveal.gif" width="560" />
 
 <br><br>
 
 </div>
 
-<div align="right-top">
+<div align="center">
 
 # A. VIKRAM
 
