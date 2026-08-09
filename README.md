@@ -124,3 +124,24 @@ Web application for planning and managing industrial visits.
 [+] Improving Python
 [+] Exploring new technologies
 [+] Working on personal projects
+---
+
+## `06 / CONNECT`
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vikram662005)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](#)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+
+</div>
+
+---
+
+<div align="center">
+
+### `KEEP BUILDING • KEEP LEARNING • KEEP EXPLORING`
+
+</div>
