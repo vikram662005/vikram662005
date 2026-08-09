@@ -1,900 +1,796 @@
-<svg width="1160" height="420" viewBox="0 0 1160 420" xmlns="http://www.w3.org/2000/svg">
+<svg width="1160" height="520" viewBox="0 0 1160 520"
+     xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <!-- ================= BACKGROUND ================= -->
+
+  <linearGradient id="hudBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#050608"/>
+    <stop offset="45%" stop-color="#0b0d10"/>
+    <stop offset="100%" stop-color="#020304"/>
+  </linearGradient>
 
-  <defs>
+  <radialGradient id="reactorGlow">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="12%" stop-color="#fff4cf"/>
+    <stop offset="28%" stop-color="#ffd34d"/>
+    <stop offset="55%" stop-color="#ff6a00" stop-opacity="0.65"/>
+    <stop offset="100%" stop-color="#ff2600" stop-opacity="0"/>
+  </radialGradient>
 
-    <!-- ================= BACKGROUND ================= -->
+  <radialGradient id="redGlow">
+    <stop offset="0%" stop-color="#ff3b18" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#ff0000" stop-opacity="0"/>
+  </radialGradient>
+
+  <linearGradient id="arcMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#5a5f64"/>
+    <stop offset="25%" stop-color="#17191c"/>
+    <stop offset="50%" stop-color="#9b9fa3"/>
+    <stop offset="75%" stop-color="#25282c"/>
+    <stop offset="100%" stop-color="#070809"/>
+  </linearGradient>
+
+  <linearGradient id="goldMetal" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#6b3c00"/>
+    <stop offset="25%" stop-color="#d99218"/>
+    <stop offset="50%" stop-color="#ffe28a"/>
+    <stop offset="75%" stop-color="#b86b00"/>
+    <stop offset="100%" stop-color="#4a2700"/>
+  </linearGradient>
+
+  <pattern id="techGrid"
+           width="28"
+           height="28"
+           patternUnits="userSpaceOnUse">
+
+    <path d="M28 0H0V28"
+          fill="none"
+          stroke="#5b3a18"
+          stroke-width="0.5"
+          opacity="0.25"/>
+
+  </pattern>
+
+  <!-- ================= GLOWS ================= -->
+
+  <filter id="glow"
+          x="-100%"
+          y="-100%"
+          width="300%"
+          height="300%">
+
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+
+  </filter>
+
+  <filter id="strongGlow"
+          x="-150%"
+          y="-150%"
+          width="400%"
+          height="400%">
+
+    <feGaussianBlur stdDeviation="7" result="blur"/>
+
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
 
-    <linearGradient id="bg"
-      x1="0%" y1="0%"
-      x2="100%" y2="100%">
+  </filter>
+
+  <!-- ================= SCAN ================= -->
+
+  <linearGradient id="scanLine">
+
+    <stop offset="0%"
+          stop-color="#ff4b1f"
+          stop-opacity="0"/>
+
+    <stop offset="50%"
+          stop-color="#ffd45c"
+          stop-opacity="0.8"/>
+
+    <stop offset="100%"
+          stop-color="#ff4b1f"
+          stop-opacity="0"/>
+
+  </linearGradient>
+
+</defs>
+
 
-      <stop offset="0%" stop-color="#02030a"/>
-      <stop offset="45%" stop-color="#071321"/>
-      <stop offset="75%" stop-color="#0b1020"/>
-      <stop offset="100%" stop-color="#010207"/>
+<!-- ========================================================= -->
+<!-- MAIN BODY                                                   -->
+<!-- ========================================================= -->
 
-    </linearGradient>
+<rect
+  width="1160"
+  height="520"
+  rx="20"
+  fill="url(#hudBg)"/>
+
+<rect
+  width="1160"
+  height="520"
+  rx="20"
+  fill="url(#techGrid)"/>
 
+<rect
+  x="2"
+  y="2"
+  width="1156"
+  height="516"
+  rx="19"
+  fill="none"
+  stroke="#6d3b13"
+  stroke-width="2"/>
+
+
+<!-- RED ATMOSPHERE -->
 
-    <!-- ================= CYAN GRADIENT ================= -->
+<circle
+  cx="180"
+  cy="250"
+  r="260"
+  fill="url(#redGlow)"/>
+
+<circle
+  cx="980"
+  cy="250"
+  r="260"
+  fill="url(#redGlow)"/>
+
+
+<!-- ========================================================= -->
+<!-- TOP JARVIS HEADER                                          -->
+<!-- ========================================================= -->
+
+<text
+  x="55"
+  y="42"
+  font-family="monospace"
+  font-size="10"
+  letter-spacing="3"
+  fill="#9b7140">
+
+  STARK INDUSTRIES // PERSONAL SYSTEM
+
+</text>
+
+<text
+  x="1105"
+  y="42"
+  text-anchor="end"
+  font-family="monospace"
+  font-size="10"
+  letter-spacing="2"
+  fill="#ffd76a">
+
+  J.A.R.V.I.S. ONLINE
+
+</text>
+
 
-    <linearGradient id="cyan"
-      x1="0%" y1="0%"
-      x2="100%" y2="0%">
+<!-- TITLE -->
+
+<text
+  x="580"
+  y="70"
+  text-anchor="middle"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="30"
+  font-weight="800"
+  letter-spacing="8"
+  fill="#f8f1dc">
 
-      <stop offset="0%" stop-color="#00f6ff"/>
-      <stop offset="50%" stop-color="#00aaff"/>
-      <stop offset="100%" stop-color="#7a5cff"/>
+  WHO AM I
 
-    </linearGradient>
+</text>
 
+<text
+  x="580"
+  y="92"
+  text-anchor="middle"
+  font-family="monospace"
+  font-size="9"
+  letter-spacing="4"
+  fill="#d28b28">
 
-    <!-- ================= GOLD GRADIENT ================= -->
+  IDENTITY // SYSTEM // ARCHITECTURE
 
-    <linearGradient id="gold"
-      x1="0%" y1="0%"
-      x2="100%" y2="0%">
+</text>
 
-      <stop offset="0%" stop-color="#ff9d42"/>
-      <stop offset="50%" stop-color="#ffe08a"/>
-      <stop offset="100%" stop-color="#ff9d42"/>
 
-    </linearGradient>
+<line
+  x1="330"
+  y1="107"
+  x2="830"
+  y2="107"
+  stroke="url(#goldMetal)"
+  stroke-width="2"
+  filter="url(#glow)"/>
 
 
-    <!-- ================= GRID ================= -->
+<!-- ========================================================= -->
+<!-- LEFT HUD PANEL                                             -->
+<!-- ========================================================= -->
 
-    <pattern id="grid"
-      width="35"
-      height="35"
-      patternUnits="userSpaceOnUse">
+<rect
+  x="42"
+  y="130"
+  width="315"
+  height="300"
+  rx="10"
+  fill="#080a0c"
+  stroke="#704016"
+  stroke-width="1.5"/>
 
-      <path
-        d="M35 0H0V35"
-        fill="none"
-        stroke="#19334d"
-        stroke-width="0.7"
-        opacity="0.35"/>
 
-    </pattern>
+<!-- panel header -->
 
+<rect
+  x="42"
+  y="130"
+  width="315"
+  height="35"
+  rx="10"
+  fill="#111316"/>
 
-    <!-- ================= GLOW ================= -->
+<text
+  x="62"
+  y="153"
+  font-family="monospace"
+  font-size="9"
+  letter-spacing="2"
+  fill="#c47a20">
 
-    <filter id="glow"
-      x="-80%"
-      y="-80%"
-      width="260%"
-      height="260%">
+  PERSONNEL FILE
 
-      <feGaussianBlur
-        stdDeviation="3"
-        result="blur"/>
+</text>
 
-      <feMerge>
+<circle
+  cx="335"
+  cy="147"
+  r="4"
+  fill="#ff3b18"
+  filter="url(#glow)"/>
 
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
 
-      </feMerge>
+<!-- NAME -->
 
-    </filter>
+<text
+  x="65"
+  y="202"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="30"
+  font-weight="800"
+  fill="#ffffff">
 
+  VIKRAM
 
-    <filter id="bigGlow"
-      x="-100%"
-      y="-100%"
-      width="300%"
-      height="300%">
+</text>
 
-      <feGaussianBlur
-        stdDeviation="8"
-        result="blur"/>
+<text
+  x="65"
+  y="225"
+  font-family="monospace"
+  font-size="11"
+  letter-spacing="2"
+  fill="#ffbd45">
 
-      <feMerge>
+  AI / SOFTWARE DEVELOPER
 
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
+</text>
 
-      </feMerge>
 
-    </filter>
+<line
+  x1="65"
+  y1="244"
+  x2="334"
+  y2="244"
+  stroke="#4c2c13"/>
 
 
-    <!-- ================= RADIAL CORE ================= -->
+<!-- INFORMATION -->
 
-    <radialGradient id="core">
+<g font-family="monospace" font-size="12">
 
-      <stop offset="0%"
-        stop-color="#ffffff"/>
+  <text x="65" y="272" fill="#ff9d2e">
+    NAME
+  </text>
 
-      <stop offset="20%"
-        stop-color="#00f6ff"/>
-
-      <stop offset="55%"
-        stop-color="#006dff"
-        stop-opacity="0.7"/>
-
-      <stop offset="100%"
-        stop-color="#00152a"
-        stop-opacity="0"/>
-
-    </radialGradient>
-
-
-    <!-- ================= SCAN GRADIENT ================= -->
-
-    <linearGradient id="scan">
-
-      <stop offset="0%"
-        stop-color="#00f6ff"
-        stop-opacity="0"/>
-
-      <stop offset="50%"
-        stop-color="#00f6ff"
-        stop-opacity="0.8"/>
-
-      <stop offset="100%"
-        stop-color="#00f6ff"
-        stop-opacity="0"/>
-
-    </linearGradient>
-
-  </defs>
-
-
-  <!-- ================================================= -->
-  <!-- MAIN BACKGROUND                                   -->
-  <!-- ================================================= -->
-
-  <rect
-    width="1160"
-    height="420"
-    rx="22"
-    fill="url(#bg)"/>
-
-
-  <rect
-    width="1160"
-    height="420"
-    rx="22"
-    fill="url(#grid)"/>
-
-
-  <!-- Outer border -->
-
-  <rect
-    x="1"
-    y="1"
-    width="1158"
-    height="418"
-    rx="21"
-    fill="none"
-    stroke="#183b57"
-    stroke-width="2"/>
-
-
-  <rect
-    x="8"
-    y="8"
-    width="1144"
-    height="404"
-    rx="17"
-    fill="none"
-    stroke="#00d9ff"
-    stroke-opacity="0.12"/>
-
-
-  <!-- ================================================= -->
-  <!-- HEADER                                            -->
-  <!-- ================================================= -->
-
-  <text
-    x="580"
-    y="43"
-    text-anchor="middle"
-    font-family="monospace"
-    font-size="25"
-    font-weight="700"
-    letter-spacing="6"
-    fill="#effcff">
-
-    &lt; WHO_AM_I /&gt;
-
+  <text x="155" y="272" fill="#e9e1d0">
+    Vikram
   </text>
 
 
-  <text
-    x="580"
-    y="66"
-    text-anchor="middle"
-    font-family="monospace"
-    font-size="9"
-    letter-spacing="4"
-    fill="#507d99">
+  <text x="65" y="297" fill="#ff9d2e">
+    LOCATION
+  </text>
 
-    ARTIFICIAL INTELLIGENCE // HUMAN INTELLIGENCE // BUILDING THE FUTURE
-
+  <text x="155" y="297" fill="#e9e1d0">
+    INDIA
   </text>
 
 
-  <!-- Header line -->
+  <text x="65" y="322" fill="#ff9d2e">
+    SPECIALTY
+  </text>
 
-  <line
-    x1="320"
-    y1="82"
-    x2="840"
-    y2="82"
-    stroke="url(#cyan)"
-    stroke-width="2"
-    filter="url(#glow)"/>
-
-
-  <!-- Moving scan -->
-
-  <rect
-    x="320"
-    y="80"
-    width="90"
-    height="3"
-    fill="url(#scan)">
-
-    <animate
-      attributeName="x"
-      values="320;750;320"
-      dur="4s"
-      repeatCount="indefinite"/>
-
-  </rect>
-
-
-  <!-- ================================================= -->
-  <!-- LEFT IDENTITY TERMINAL                           -->
-  <!-- ================================================= -->
-
-  <rect
-    x="45"
-    y="105"
-    width="300"
-    height="250"
-    rx="14"
-    fill="#02060c"
-    stroke="#164b64"
-    stroke-width="1.5"/>
-
-
-  <!-- Terminal header -->
-
-  <rect
-    x="45"
-    y="105"
-    width="300"
-    height="38"
-    rx="14"
-    fill="#06121d"/>
-
-
-  <circle
-    cx="70"
-    cy="124"
-    r="5"
-    fill="#ff5f56"/>
-
-
-  <circle
-    cx="88"
-    cy="124"
-    r="5"
-    fill="#ffbd2e"/>
-
-
-  <circle
-    cx="106"
-    cy="124"
-    r="5"
-    fill="#27c93f"/>
-
-
-  <text
-    x="130"
-    y="128"
-    font-family="monospace"
-    font-size="10"
-    fill="#4f748b">
-
-    AI_TERMINAL
-
+  <text x="155" y="322" fill="#e9e1d0">
+    AI + COMPUTER VISION
   </text>
 
 
-  <line
-    x1="60"
-    y1="151"
-    x2="330"
-    y2="151"
-    stroke="#15354a"/>
-
-
-  <!-- Terminal content -->
-
-  <g
-    font-family="monospace"
-    font-size="13">
-
-    <text
-      x="65"
-      y="178"
-      fill="#00f6ff">
-
-      $ identity
-
-    </text>
-
-
-    <text
-      x="65"
-      y="200"
-      fill="#ffffff">
-
-      VIKRAM
-
-    </text>
-
-
-    <text
-      x="65"
-      y="228"
-      fill="#00f6ff">
-
-      $ specialization
-
-    </text>
-
-
-    <text
-      x="65"
-      y="250"
-      fill="#ffe08a">
-
-      AI / FULL STACK / CV
-
-    </text>
-
-
-    <text
-      x="65"
-      y="278"
-      fill="#00f6ff">
-
-      $ location
-
-    </text>
-
-
-    <text
-      x="65"
-      y="300"
-      fill="#ffffff">
-
-      INDIA
-
-    </text>
-
-
-    <text
-      x="65"
-      y="328"
-      fill="#00f6ff">
-
-      $ state
-
-    </text>
-
-
-    <text
-      x="65"
-      y="350"
-      fill="#7dff9b">
-
-      ● BUILDING...
-
-    </text>
-
-  </g>
-
-
-  <!-- ================================================= -->
-  <!-- CENTER CORE                                      -->
-  <!-- ================================================= -->
-
-  <g transform="translate(580,215)">
-
-    <!-- Outer energy -->
-
-    <circle
-      r="108"
-      fill="none"
-      stroke="#00eaff"
-      stroke-opacity="0.08"
-      stroke-width="2"/>
-
-
-    <circle
-      r="91"
-      fill="none"
-      stroke="#00eaff"
-      stroke-opacity="0.18"
-      stroke-width="1"/>
-
-
-    <circle
-      r="73"
-      fill="none"
-      stroke="#00eaff"
-      stroke-opacity="0.28"
-      stroke-width="1"/>
-
-
-    <!-- Rotating ring -->
-
-    <circle
-      r="84"
-      fill="none"
-      stroke="url(#cyan)"
-      stroke-width="2"
-      stroke-dasharray="18 12"
-      filter="url(#glow)">
-
-      <animateTransform
-        attributeName="transform"
-        type="rotate"
-        from="0"
-        to="360"
-        dur="8s"
-        repeatCount="indefinite"/>
-
-    </circle>
-
-
-    <!-- Second rotating ring -->
-
-    <circle
-      r="64"
-      fill="none"
-      stroke="url(#gold)"
-      stroke-width="1.5"
-      stroke-dasharray="7 14"
-      opacity="0.8">
-
-      <animateTransform
-        attributeName="transform"
-        type="rotate"
-        from="360"
-        to="0"
-        dur="5s"
-        repeatCount="indefinite"/>
-
-    </circle>
-
-
-    <!-- Radar sweep -->
-
-    <path
-      d="M0,0 L0,-80 A80,80 0 0 1 56,-57 Z"
-      fill="#00eaff"
-      opacity="0.11">
-
-      <animateTransform
-        attributeName="transform"
-        type="rotate"
-        from="0"
-        to="360"
-        dur="3s"
-        repeatCount="indefinite"/>
-
-    </path>
-
-
-    <!-- Core glow -->
-
-    <circle
-      r="48"
-      fill="url(#core)"
-      filter="url(#bigGlow)">
-
-      <animate
-        attributeName="r"
-        values="40;55;40"
-        dur="2.2s"
-        repeatCount="indefinite"/>
-
-      <animate
-        attributeName="opacity"
-        values="0.55;1;0.55"
-        dur="2.2s"
-        repeatCount="indefinite"/>
-
-    </circle>
-
-
-    <!-- Core -->
-
-    <circle
-      r="22"
-      fill="#020a12"
-      stroke="#00f6ff"
-      stroke-width="2"
-      filter="url(#glow)"/>
-
-
-    <circle
-      r="8"
-      fill="#ffffff"
-      filter="url(#bigGlow)"/>
-
-
-    <!-- AI triangle -->
-
-    <path
-      d="M0,-12 L11,8 L-11,8 Z"
-      fill="none"
-      stroke="#ffffff"
-      stroke-width="1.5"/>
-
-
-    <!-- Orbit dots -->
-
-    <circle
-      cx="0"
-      cy="-84"
-      r="4"
-      fill="#00f6ff"
-      filter="url(#glow)"/>
-
-
-    <circle
-      cx="84"
-      cy="0"
-      r="4"
-      fill="#ffe08a"
-      filter="url(#glow)"/>
-
-
-    <circle
-      cx="0"
-      cy="84"
-      r="4"
-      fill="#7dff9b"
-      filter="url(#glow)"/>
-
-
-    <circle
-      cx="-84"
-      cy="0"
-      r="4"
-      fill="#b26cff"
-      filter="url(#glow)"/>
-
-  </g>
-
-
-  <!-- ================================================= -->
-  <!-- CENTER TITLE                                      -->
-  <!-- ================================================= -->
-
-  <text
-    x="580"
-    y="336"
-    text-anchor="middle"
-    font-family="monospace"
-    font-size="12"
-    letter-spacing="3"
-    fill="#4e829d">
-
-    CURRENT MISSION
-
+  <text x="65" y="347" fill="#ff9d2e">
+    SYSTEM
   </text>
 
-
-  <text
-    x="580"
-    y="358"
-    text-anchor="middle"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="18"
-    font-weight="700"
-    fill="#ffffff">
-
+  <text x="155" y="347" fill="#e9e1d0">
     AI INTERVIEW COACH
-
   </text>
 
-
-  <text
-    x="580"
-    y="378"
-    text-anchor="middle"
-    font-family="monospace"
-    font-size="10"
-    fill="#00eaff">
-
-    GEMINI • MEDIAPIPE • FLASK • REAL-TIME ANALYSIS
-
-  </text>
+</g>
 
 
-  <!-- ================================================= -->
-  <!-- RIGHT SYSTEM PANEL                                -->
-  <!-- ================================================= -->
+<!-- STATUS -->
 
-  <rect
-    x="815"
-    y="105"
-    width="300"
-    height="250"
-    rx="14"
-    fill="#02060c"
-    stroke="#164b64"
-    stroke-width="1.5"/>
+<rect
+  x="65"
+  y="372"
+  width="269"
+  height="34"
+  rx="6"
+  fill="#170c06"
+  stroke="#9b5415"
+  stroke-opacity="0.7"/>
+
+<circle
+  cx="82"
+  cy="389"
+  r="5"
+  fill="#7dff62"
+  filter="url(#glow)">
+
+  <animate
+    attributeName="opacity"
+    values="0.25;1;0.25"
+    dur="1.3s"
+    repeatCount="indefinite"/>
+
+</circle>
+
+<text
+  x="97"
+  y="393"
+  font-family="monospace"
+  font-size="10"
+  fill="#baff9b">
+
+  BUILD STATUS : ACTIVE
+
+</text>
 
 
-  <text
-    x="840"
-    y="133"
-    font-family="monospace"
-    font-size="10"
-    letter-spacing="2"
-    fill="#4f748b">
+<!-- ========================================================= -->
+<!-- ARC REACTOR                                                -->
+<!-- ========================================================= -->
 
-    SYSTEM_CAPABILITIES
-
-  </text>
+<g transform="translate(580 275)">
 
 
-  <line
-    x1="835"
-    y1="146"
-    x2="1095"
-    y2="146"
-    stroke="#15354a"/>
-
-
-  <!-- Capability 1 -->
+  <!-- Outer glow -->
 
   <circle
-    cx="845"
-    cy="174"
-    r="4"
-    fill="#7dff9b"
-    filter="url(#glow)"/>
-
-
-  <text
-    x="860"
-    y="179"
-    font-family="monospace"
-    font-size="12"
-    fill="#e9fbff">
-
-    AI QUESTION GENERATION
-
-  </text>
-
-
-  <!-- Capability 2 -->
-
-  <circle
-    cx="845"
-    cy="207"
-    r="4"
-    fill="#00eaff"
-    filter="url(#glow)"/>
-
-
-  <text
-    x="860"
-    y="212"
-    font-family="monospace"
-    font-size="12"
-    fill="#e9fbff">
-
-    SPEECH ANALYSIS
-
-  </text>
-
-
-  <!-- Capability 3 -->
-
-  <circle
-    cx="845"
-    cy="240"
-    r="4"
-    fill="#ffe08a"
-    filter="url(#glow)"/>
-
-
-  <text
-    x="860"
-    y="245"
-    font-family="monospace"
-    font-size="12"
-    fill="#e9fbff">
-
-    FACIAL / EYE ANALYSIS
-
-  </text>
-
-
-  <!-- Capability 4 -->
-
-  <circle
-    cx="845"
-    cy="273"
-    r="4"
-    fill="#b26cff"
-    filter="url(#glow)"/>
-
-
-  <text
-    x="860"
-    y="278"
-    font-family="monospace"
-    font-size="12"
-    fill="#e9fbff">
-
-    REAL-TIME FEEDBACK
-
-  </text>
-
-
-  <!-- Capability 5 -->
-
-  <circle
-    cx="845"
-    cy="306"
-    r="4"
-    fill="#ff8c42"
-    filter="url(#glow)"/>
-
-
-  <text
-    x="860"
-    y="311"
-    font-family="monospace"
-    font-size="12"
-    fill="#e9fbff">
-
-    3D / METAHUMAN
-
-  </text>
-
-
-  <!-- Status -->
-
-  <rect
-    x="838"
-    y="326"
-    width="254"
-    height="17"
-    rx="5"
-    fill="#071b18"
-    stroke="#7dff9b"
-    stroke-opacity="0.25"/>
-
-
-  <circle
-    cx="850"
-    cy="334"
-    r="3"
-    fill="#7dff9b">
+    r="145"
+    fill="url(#reactorGlow)"
+    filter="url(#strongGlow)"
+    opacity="0.35">
 
     <animate
       attributeName="opacity"
-      values="0.3;1;0.3"
-      dur="1.4s"
+      values="0.15;0.4;0.15"
+      dur="2s"
       repeatCount="indefinite"/>
 
   </circle>
 
 
-  <text
-    x="860"
-    y="338"
-    font-family="monospace"
-    font-size="9"
-    fill="#7dff9b">
+  <!-- Outer metal -->
 
-    SYSTEM ONLINE // READY TO BUILD
-
-  </text>
+  <circle
+    r="115"
+    fill="none"
+    stroke="url(#arcMetal)"
+    stroke-width="12"/>
 
 
-  <!-- ================================================= -->
-  <!-- BOTTOM TECH STREAM                                -->
-  <!-- ================================================= -->
+  <!-- Gold ring -->
+
+  <circle
+    r="98"
+    fill="none"
+    stroke="url(#goldMetal)"
+    stroke-width="3"
+    stroke-dasharray="32 10"
+    filter="url(#glow)">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0"
+      to="360"
+      dur="10s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- Inner ring -->
+
+  <circle
+    r="82"
+    fill="none"
+    stroke="#ffb52e"
+    stroke-width="2"
+    stroke-dasharray="5 9"
+    opacity="0.8">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="360"
+      to="0"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- Reactor core -->
+
+  <circle
+    r="70"
+    fill="#0b0d0e"
+    stroke="#ffca4d"
+    stroke-width="2"/>
+
+
+  <circle
+    r="55"
+    fill="url(#reactorGlow)"
+    filter="url(#strongGlow)">
+
+    <animate
+      attributeName="r"
+      values="45;62;45"
+      dur="2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- Triangular arc reactor -->
+
+  <path
+    d="M0,-43 L37,25 L-37,25 Z"
+    fill="none"
+    stroke="#ffe49a"
+    stroke-width="4"
+    filter="url(#glow)"/>
+
+
+  <path
+    d="M0,-31 L27,18 L-27,18 Z"
+    fill="#ffd34d"
+    opacity="0.75"
+    filter="url(#strongGlow)"/>
+
+
+  <path
+    d="M0,-21 L18,12 L-18,12 Z"
+    fill="#ffffff"
+    filter="url(#glow)"/>
+
+
+  <!-- Energy rays -->
 
   <g
-    font-family="monospace"
-    font-size="9"
-    fill="#36566c">
+    stroke="#ffcf58"
+    stroke-width="2"
+    filter="url(#glow)">
 
-    <text x="50" y="397">
-      [AI]
-    </text>
+    <line x1="0" y1="-132" x2="0" y2="-116"/>
 
-    <text x="100" y="397">
-      [VISION]
-    </text>
+    <line x1="0" y1="116" x2="0" y2="132"/>
 
-    <text x="180" y="397">
-      [FLASK]
-    </text>
+    <line x1="-132" y1="0" x2="-116" y2="0"/>
 
-    <text x="250" y="397">
-      [GEMINI]
-    </text>
-
-    <text x="330" y="397">
-      [UNREAL ENGINE]
-    </text>
-
-    <text x="470" y="397">
-      [METAHUMAN]
-    </text>
-
-    <text x="580" y="397">
-      [CONVAI]
-    </text>
-
-    <text x="670" y="397">
-      [PYTHON]
-    </text>
-
-    <text x="750" y="397">
-      [JAVASCRIPT]
-    </text>
-
-    <text x="880" y="397">
-      [FULL STACK]
-    </text>
-
-    <text x="1000" y="397">
-      [BUILD]
-    </text>
+    <line x1="116" y1="0" x2="132" y2="0"/>
 
   </g>
 
 
-  <!-- ================================================= -->
-  <!-- CORNER HUD MARKS                                  -->
-  <!-- ================================================= -->
+  <!-- rotating targeting brackets -->
 
   <path
-    d="M25 55V25H55"
+    d="M-126,-35 L-126,-65 L-96,-65"
     fill="none"
-    stroke="#00eaff"
-    stroke-width="2"/>
+    stroke="#ff4b1f"
+    stroke-width="2">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0"
+      to="360"
+      dur="12s"
+      repeatCount="indefinite"/>
+
+  </path>
+
+</g>
 
 
-  <path
-    d="M1105 25H1135V55"
-    fill="none"
-    stroke="#00eaff"
-    stroke-width="2"/>
+<!-- ========================================================= -->
+<!-- RIGHT JARVIS PANEL                                         -->
+<!-- ========================================================= -->
+
+<rect
+  x="803"
+  y="130"
+  width="315"
+  height="300"
+  rx="10"
+  fill="#080a0c"
+  stroke="#704016"
+  stroke-width="1.5"/>
 
 
-  <path
-    d="M25 365V395H55"
-    fill="none"
-    stroke="#00eaff"
-    stroke-width="2"/>
+<text
+  x="828"
+  y="157"
+  font-family="monospace"
+  font-size="9"
+  letter-spacing="2"
+  fill="#c47a20">
+
+  SYSTEM CAPABILITIES
+
+</text>
 
 
-  <path
-    d="M1105 395H1135V365"
-    fill="none"
-    stroke="#00eaff"
-    stroke-width="2"/>
+<line
+  x1="825"
+  y1="170"
+  x2="1095"
+  y2="170"
+  stroke="#4c2c13"/>
+
+
+<!-- capability bars -->
+
+<g font-family="monospace" font-size="10">
+
+  <text x="828" y="197" fill="#d9d1c0">
+    GENERATIVE AI
+  </text>
+
+  <rect x="828" y="204" width="245" height="5" rx="2"
+        fill="#25170b"/>
+
+  <rect x="828" y="204" width="220" height="5" rx="2"
+        fill="url(#goldMetal)"
+        filter="url(#glow)"/>
+
+
+  <text x="828" y="231" fill="#d9d1c0">
+    COMPUTER VISION
+  </text>
+
+  <rect x="828" y="238" width="245" height="5" rx="2"
+        fill="#25170b"/>
+
+  <rect x="828" y="238" width="232" height="5" rx="2"
+        fill="#ff5a24"
+        filter="url(#glow)"/>
+
+
+  <text x="828" y="265" fill="#d9d1c0">
+    FULL STACK
+  </text>
+
+  <rect x="828" y="272" width="245" height="5" rx="2"
+        fill="#25170b"/>
+
+  <rect x="828" y="272" width="215" height="5" rx="2"
+        fill="#ffd34d"
+        filter="url(#glow)"/>
+
+
+  <text x="828" y="299" fill="#d9d1c0">
+    REAL-TIME 3D
+  </text>
+
+  <rect x="828" y="306" width="245" height="5" rx="2"
+        fill="#25170b"/>
+
+  <rect x="828" y="306" width="190" height="5" rx="2"
+        fill="#ff4b1f"
+        filter="url(#glow)"/>
+
+</g>
+
+
+<!-- STACK -->
+
+<text
+  x="828"
+  y="342"
+  font-family="monospace"
+  font-size="9"
+  letter-spacing="2"
+  fill="#c47a20">
+
+  CORE TECHNOLOGY
+
+</text>
+
+
+<text
+  x="828"
+  y="362"
+  font-family="monospace"
+  font-size="10"
+  fill="#eee4d0">
+
+  PYTHON • FLASK • GEMINI
+
+</text>
+
+<text
+  x="828"
+  y="382"
+  font-family="monospace"
+  font-size="10"
+  fill="#eee4d0">
+
+  MEDIAPIPE • OPENCV • REACT
+
+</text>
+
+<text
+  x="828"
+  y="402"
+  font-family="monospace"
+  font-size="10"
+  fill="#eee4d0">
+
+  UNREAL • METAHUMAN • CONVAI
+
+</text>
+
+
+<!-- ========================================================= -->
+<!-- SCANNING BEAM                                              -->
+<!-- ========================================================= -->
+
+<rect
+  x="30"
+  y="120"
+  width="1100"
+  height="2"
+  fill="url(#scanLine)"
+  opacity="0.65">
+
+  <animate
+    attributeName="y"
+    values="120;430;120"
+    dur="6s"
+    repeatCount="indefinite"/>
+
+</rect>
+
+
+<!-- ========================================================= -->
+<!-- BOTTOM HUD                                                 -->
+<!-- ========================================================= -->
+
+<rect
+  x="42"
+  y="450"
+  width="1076"
+  height="38"
+  rx="8"
+  fill="#080a0c"
+  stroke="#6d3b13"/>
+
+
+<text
+  x="62"
+  y="474"
+  font-family="monospace"
+  font-size="10"
+  fill="#ff9d2e">
+
+  JARVIS:
+
+</text>
+
+<text
+  x="125"
+  y="474"
+  font-family="monospace"
+  font-size="10"
+  fill="#d7d0c2">
+
+  "Turning ideas into intelligent experiences."
+
+</text>
+
+<text
+  x="1095"
+  y="474"
+  text-anchor="end"
+  font-family="monospace"
+  font-size="10"
+  fill="#7dff62">
+
+  SYSTEM READY_
+
+</text>
+
+
+<!-- ========================================================= -->
+<!-- CORNER HUD MARKS                                           -->
+<!-- ========================================================= -->
+
+<path
+  d="M25 75V25H75"
+  fill="none"
+  stroke="#ff4b1f"
+  stroke-width="2"/>
+
+<path
+  d="M1085 25H1135V75"
+  fill="none"
+  stroke="#ff4b1f"
+  stroke-width="2"/>
+
+<path
+  d="M25 445V495H75"
+  fill="none"
+  stroke="#ff4b1f"
+  stroke-width="2"/>
+
+<path
+  d="M1085 495H1135V445"
+  fill="none"
+  stroke="#ff4b1f"
+  stroke-width="2"/>
+
+
+<!-- small targeting markers -->
+
+<g
+  stroke="#ffbd45"
+  stroke-width="1"
+  opacity="0.7">
+
+  <line x1="370" y1="275" x2="390" y2="275"/>
+  <line x1="770" y1="275" x2="790" y2="275"/>
+
+  <line x1="580" y1="125" x2="580" y2="145"/>
+  <line x1="580" y1="405" x2="580" y2="425"/>
+
+</g>
 
 
 </svg>
